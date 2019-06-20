@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="52a53583-817b-4288-8658-66b1d6be3266">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.РолиИсполнителей" category="Object">
+				<xr:TypeId>1b68451c-7fae-45cd-b406-04da770f8108</xr:TypeId>
+				<xr:ValueId>670d5ec3-665f-4bbc-983c-5864e40ef766</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.РолиИсполнителей" category="Ref">
+				<xr:TypeId>dc0ffc73-f111-49ea-89f9-5e4651f1a8b9</xr:TypeId>
+				<xr:ValueId>4539674b-4dee-41cf-ac6c-e9efde18a134</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.РолиИсполнителей" category="Selection">
+				<xr:TypeId>38f58643-3f04-4e61-86d7-08d8913ee3f8</xr:TypeId>
+				<xr:ValueId>2c0f4fb8-ddb0-40b1-b9af-d6fe47c731ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.РолиИсполнителей" category="List">
+				<xr:TypeId>48b5414d-81a0-4000-9eb8-3f1fa04fb03c</xr:TypeId>
+				<xr:ValueId>0efe442e-5ae1-4ce3-9e9b-b2200116aea6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.РолиИсполнителей" category="Manager">
+				<xr:TypeId>c6de4403-54ae-4921-98ac-c61bf3a2e210</xr:TypeId>
+				<xr:ValueId>f80452e8-f197-4e42-bc41-73b2ef1d5633</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РолиИсполнителей</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

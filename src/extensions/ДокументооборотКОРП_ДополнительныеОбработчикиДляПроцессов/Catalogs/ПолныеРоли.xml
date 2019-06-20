@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="f5b3d761-2810-464a-b05f-73569fa1444a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПолныеРоли" category="Object">
+				<xr:TypeId>d973027a-2620-4b16-95e7-4fbd0f998802</xr:TypeId>
+				<xr:ValueId>2868431a-a503-444b-9333-8580c0c87e37</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПолныеРоли" category="Ref">
+				<xr:TypeId>0dd2e54c-41b4-4ddd-acd3-f4b0e47997d0</xr:TypeId>
+				<xr:ValueId>78dd664c-6a64-4c17-84f3-9560a927fc0d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПолныеРоли" category="Selection">
+				<xr:TypeId>da4d8c57-d6ff-4167-8d8b-1d5acbbb547b</xr:TypeId>
+				<xr:ValueId>72da1550-f147-4cef-ada1-91eb8ae4b46d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПолныеРоли" category="List">
+				<xr:TypeId>1c33b6ce-a773-4e42-af4f-9f468a2ffef6</xr:TypeId>
+				<xr:ValueId>e65d493f-ca43-4c5c-b9a1-0e77b5404b1b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПолныеРоли" category="Manager">
+				<xr:TypeId>d38fc346-052b-45ec-b6a8-a5d630df0e1d</xr:TypeId>
+				<xr:ValueId>9e2f21b7-43ed-4631-b4ec-7dc4aa051459</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПолныеРоли</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.7">
+	<Item id="53b18eb7-d4f0-4969-8b5b-71a495a1f22f">
+		<Name>Организация</Name>
+		<Code/>
+		<Description>Организация</Description>
+		<Type>
+			<v8:TypeId>c66b2ec0-5fb7-4a32-ba46-673aebc6b37a</v8:TypeId>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="61c90987-24eb-44fd-a2db-1051b3d7d5c8">
+		<Name>Подразделение</Name>
+		<Code/>
+		<Description>Подразделение</Description>
+		<Type/>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
