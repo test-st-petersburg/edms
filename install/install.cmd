@@ -6,3 +6,4 @@ call npm install
 call opm install precommit1c
 call opm install gitsync
 call opm install packman
+call opm install deployka
