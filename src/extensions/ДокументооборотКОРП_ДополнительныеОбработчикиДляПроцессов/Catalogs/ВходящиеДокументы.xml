@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="1007a701-2922-44bd-8f90-122f50f614a7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВходящиеДокументы" category="Object">
+				<xr:TypeId>5db17bb4-1bf9-4545-9b41-9243354559da</xr:TypeId>
+				<xr:ValueId>26bdb0d3-f18a-4758-9a84-9f169b0c9a58</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВходящиеДокументы" category="Ref">
+				<xr:TypeId>e0715029-ca44-4782-84b2-0c1f731a4151</xr:TypeId>
+				<xr:ValueId>6b9d9ed0-cb8c-4e34-8a64-66a932936cd1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВходящиеДокументы" category="Selection">
+				<xr:TypeId>3854151e-fa33-4c5c-b917-f7a9b79cb4b6</xr:TypeId>
+				<xr:ValueId>92c91640-efd2-492f-a54f-d82907e65d9b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВходящиеДокументы" category="List">
+				<xr:TypeId>d7f84d43-9b3a-407c-b820-198bd2f16a2c</xr:TypeId>
+				<xr:ValueId>d0185962-6983-4f81-9b4d-97cad45bb869</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВходящиеДокументы" category="Manager">
+				<xr:TypeId>2afad6c2-f9a3-416c-adf6-dd144276bbd9</xr:TypeId>
+				<xr:ValueId>045b9f05-c17a-4d99-b23e-c772ed594246</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВходящиеДокументы</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9f3850b2-6129-4ff9-9075-83ef71b8652c">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

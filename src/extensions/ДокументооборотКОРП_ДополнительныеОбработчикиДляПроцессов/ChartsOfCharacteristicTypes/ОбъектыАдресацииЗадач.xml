@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<ChartOfCharacteristicTypes uuid="3cdde6f1-ed15-4fdb-ac56-99ca42f11fc0">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.ОбъектыАдресацииЗадач" category="Object">
+				<xr:TypeId>f9436aff-6e5d-4e1c-b80e-d410d835ec6c</xr:TypeId>
+				<xr:ValueId>052214f0-db92-4daa-a334-f48453e0f8c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.ОбъектыАдресацииЗадач" category="Ref">
+				<xr:TypeId>407d01b3-8207-4974-b2c5-28708e30931d</xr:TypeId>
+				<xr:ValueId>190dae95-3637-438a-b8b2-6b83f6b17829</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.ОбъектыАдресацииЗадач" category="Selection">
+				<xr:TypeId>61f2b11b-7568-4037-95ca-c0ab05d941ad</xr:TypeId>
+				<xr:ValueId>24f4d796-d034-4ff5-b5d6-05202aa525be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.ОбъектыАдресацииЗадач" category="List">
+				<xr:TypeId>4fb6261e-14d0-4129-8739-ebc11dadb227</xr:TypeId>
+				<xr:ValueId>3d8024c4-0c8c-4368-bdcd-cf92c3798f08</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="Characteristic.ОбъектыАдресацииЗадач" category="Characteristic">
+				<xr:TypeId>a8b26fb6-d019-4b94-8fec-a7c5d5b04cd8</xr:TypeId>
+				<xr:ValueId>b82ce834-dd14-42c7-9f25-285658d49e2b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.ОбъектыАдресацииЗадач" category="Manager">
+				<xr:TypeId>c90011a8-7c6f-4a9f-9c27-6ab7bd38b5f2</xr:TypeId>
+				<xr:ValueId>a7f3b20b-db16-4732-b25b-cd3f2ce179e7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОбъектыАдресацииЗадач</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>0</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCharacteristicTypes>
+</MetaDataObject>
