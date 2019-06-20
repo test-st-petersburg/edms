@@ -1,0 +1,10 @@
+{
+    "default": true,
+    "ol-prefix": {
+        "style": "one"
+    },
+    "line-length": true,
+    "no-duplicate-header": false,
+    "no-bare-urls": false,
+    "no-hard-tabs": true
+}
