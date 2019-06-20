@@ -40,9 +40,12 @@ module.exports = {
       name: "style: Исправления стиля кода"
     },
     {
-      value:
-        "test",
+      value: "test",
       name: "test: Добавление тестов"
+    },
+    {
+      value: "chore",
+      name: "chore: Прочие изменения, не влияющие на код"
     }
   ],
 

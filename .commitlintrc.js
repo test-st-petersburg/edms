@@ -1,6 +1,6 @@
 // Файл создан на основе @commitlint/config-conventional
 
-const cz = require('./commitizen.js')
+const cz = require('./.cz-config.js')
 
 module.exports = {
   rules: {
