@@ -1,0 +1,27 @@
+{
+    "version": "0.1",
+    "ignorePaths": [
+        ".git",
+        ".git/**",
+        ".vscode/*",
+        "node_modules",
+        "**/node_modules",
+        "**/node_modules/**",
+        "node_modules/**"
+    ],
+    "language": "en,ru",
+    "dictionaries": [],
+    "words": [
+        "betke",
+        "markdownlint",
+        "codecov",
+        "Recurse",
+        "PreRelease",
+        "Veyor"
+    ],
+    "ignoreRegExpList": [
+        "AppVeyor",
+        "\\.gitattributes",
+        "\\[.*?\\]\\(.*?\\)"
+    ]
+}
