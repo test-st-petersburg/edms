@@ -9,5 +9,5 @@ build:
   image: latest
 
 # Build documentation with MkDocs
-MkDocs:
-  configuration: MkDocs.yml
+mkdocs:
+  configuration: mkdocs.yml
