@@ -1,0 +1,11 @@
+site_name: Расширение конфигурации для 1С:Документооборот (ФБУ "Тест-С.-Петербург")
+
+repo_url: https://github.com/test-st-petersburg/edms
+
+nav:
+- В начало: 'index.md'
+- О проекте:
+    - 'License': '../license'
+    - 'Release Notes': '../changelog.md'
+
+docs_dir: docs
