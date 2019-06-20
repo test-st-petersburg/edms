@@ -7,3 +7,4 @@
 
 - https://infostart.ru/public/864097/
 - https://infostart.ru/public/721600/
+- https://github.com/alexpetrov/xdd-bootstrap-1C
