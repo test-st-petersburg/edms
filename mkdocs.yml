@@ -2,10 +2,7 @@ site_name: Расширение конфигурации для 1С:Докуме
 
 repo_url: https://github.com/test-st-petersburg/edms
 
-nav:
-- В начало: 'index.md'
-- О проекте:
-    - 'License': '../license'
-    - 'Release Notes': '../changelog.md'
+# nav:
+# - В начало: 'index.md'
 
 docs_dir: docs
