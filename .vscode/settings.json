@@ -3,7 +3,10 @@
         ".git": true,
         "node_modules/": true
     },
+    "shellcheck.exclude": [
+        1017
+    ],
     "editor.formatOnSave": true,
     "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
 }
