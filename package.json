@@ -1,0 +1,15 @@
+{
+  "name": "xITGHyperV",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IT-Service/xITGHyperV.git"
+  },
+  "author": "Sergei S. Betke",
+  "devDependencies": {
+    "@commitlint/cli": "^7.6.0",
+    "cz-customizable": "^6.0.0",
+    "husky": "^2.2.0"
+  }
+}
