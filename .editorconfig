@@ -1,0 +1,30 @@
+; Check http://editorconfig.org/ for more informations
+; Top-most EditorConfig file
+root = true
+
+[*]
+end_of_line = crlf
+trim_trailing_whitespace = true
+insert_final_newline = true
+charset = utf-8
+
+[*.{editorconfig,gitattributes,gitignore}]
+
+[*.yml]
+indent_style = space
+indent_size = 2
+
+[*.md]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+
+[{LICENSE,NOTICE}]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+
+[*.json]
+indent_style = space
+indent_size = 4
+charset = utf-8
