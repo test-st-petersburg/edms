@@ -6,3 +6,4 @@
 ## О подготовке рабочего места
 
 - https://infostart.ru/public/864097/
+- https://infostart.ru/public/721600/
