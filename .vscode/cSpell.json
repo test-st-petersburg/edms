@@ -9,9 +9,10 @@
         "**/node_modules/**",
         "node_modules/**"
     ],
-    "language": "en,ru",
+    "language": "ru,en",
     "dictionaries": [],
     "words": [
+        "Документооборот",
         "betke",
         "markdownlint",
         "codecov",
