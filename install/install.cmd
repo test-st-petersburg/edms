@@ -14,3 +14,6 @@ call Precommit1c --install
 call opm install gitsync
 call opm install packman
 call opm install deployka
+
+git config --local core.quotepath false
+git config --local core.longpaths true
