@@ -46,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>1.1.0</Version>
+			<Version>1.1.2</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -71,6 +71,7 @@
 			<CommonModule>ДелопроизводствоКлиентСервер</CommonModule>
 			<CommonModule>ШаблоныБизнесПроцессовПереопределяемый</CommonModule>
 			<CommonModule>ИТГ_ШаблоныБизнесПроцессов</CommonModule>
+			<CommonModule>ИТГ_Мультипредметность</CommonModule>
 			<Catalog>ВнутренниеДокументы</Catalog>
 			<Catalog>ВходящиеДокументы</Catalog>
 			<Catalog>ИсходящиеДокументы</Catalog>
