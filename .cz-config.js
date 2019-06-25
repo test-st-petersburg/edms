@@ -58,7 +58,7 @@ module.exports = {
     { name: "commitizen" }
   ],
 
-  // Возможность задать спец ОБЛАСТЬ для определенного типа коммита (пример для 'fix')
+  // Возможность задать спец ОБЛАСТЬ для определенного типа изменения (пример для 'fix')
   /*
   scopeOverrides: {
     fix: [
@@ -75,12 +75,12 @@ module.exports = {
     subject: "Напишите КОРОТКОЕ описание в ПОВЕЛИТЕЛЬНОМ наклонении:\n",
     body: 'Напишите ПОДРОБНОЕ описание (опционально). Используйте "|" для новой строки:\n',
     breaking: "Список BREAKING CHANGES (опционально):\n",
-    footer: "Место для мета данных (issues, ссылок и остального).\n",
+    footer: "Место для метаданных (issues, ссылок, например: 'Closed: #3').\n",
     confirmCommit: "Вас устраивает получившиеся сообщение?"
   },
 
   allowCustomScopes: false,
-  allowBreakingChanges: true,
-  footerPrefix: "МЕТА ДАННЫЕ:",
+  allowBreakingChanges: ['feat', 'fix'],
+  footerPrefix: "МЕТАДАННЫЕ:",
   subjectLimit: 72
 };
