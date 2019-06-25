@@ -15,7 +15,6 @@
         "mkdocs",
         "расширения",
         "repo",
-        "автоподстановка",
         "Документооборот",
         "betke",
         "markdownlint",
@@ -25,6 +24,7 @@
         "Veyor"
     ],
     "ignoreRegExpList": [
+        "автоподстановк(а|и|е|ой|у)",
         "AppVeyor",
         "\\.gitattributes",
         "\\[.*?\\]\\(.*?\\)"
