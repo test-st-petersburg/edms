@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.7">
+	<ConfigVersions>
+		<Metadata name="Catalog.ВидыВнутреннихДокументов" id="1795ae84-5fc5-48c1-a475-7ef1079d42c0" configVersion="603414b126440d7f8314c14d67f0f5d91d35fec4">
+			<Metadata name="Catalog.ВидыВнутреннихДокументов.Attribute.Комментарий" id="9fae4786-bc55-4427-84a9-a42f86892d1b"/>
+		</Metadata>
+		<Metadata name="Catalog.ВидыВнутреннихДокументов.Form.ФормаВыбора" id="81a63dbe-df1a-43da-8797-4a0229f9071a" configVersion="627ef5b7415d4ef6674359806630443fad1cdc51"/>
+		<Metadata name="Catalog.ВидыВнутреннихДокументов.Form.ФормаВыбора.Form" id="81a63dbe-df1a-43da-8797-4a0229f9071a.0" configVersion="cd4d115e4316585b3f319846bf35cc599960434b"/>
+		<Metadata name="Catalog.ВидыВходящихДокументов" id="4e3aa993-6550-4979-ad62-08d6acbcd367" configVersion="6d424a59dd983e4c2f82e17b91ab04a175008574">
+			<Metadata name="Catalog.ВидыВходящихДокументов.Attribute.Комментарий" id="eb1f9e19-84fa-4766-a985-ac4aa71021df"/>
+		</Metadata>
+		<Metadata name="Catalog.ВидыВходящихДокументов.Form.ФормаВыбора" id="d4303307-1198-47ac-bebe-0442d018854a" configVersion="fbb15cea88bc1cf1ada5cee237a80a6765b71090"/>
+		<Metadata name="Catalog.ВидыВходящихДокументов.Form.ФормаВыбора.Form" id="d4303307-1198-47ac-bebe-0442d018854a.0" configVersion="bc6c31157934b18e75975e839d82ae1b6e974fd1"/>
+		<Metadata name="Catalog.ВидыИсходящихДокументов" id="897a1946-3e15-4c18-8b63-2457c7dd1e58" configVersion="ce79ca7f3ad446ba52b760f1a6c0aa3b49226a14">
+			<Metadata name="Catalog.ВидыИсходящихДокументов.Attribute.Комментарий" id="f834e605-e9a2-4d03-80af-e678b27edffb"/>
+		</Metadata>
+		<Metadata name="Catalog.ВидыИсходящихДокументов.Form.ФормаВыбора" id="0153167c-7c75-46ad-b0af-853074a4085b" configVersion="b177f5a667db72571665ddca3b54cc5f8683c73f"/>
+		<Metadata name="Catalog.ВидыИсходящихДокументов.Form.ФормаВыбора.Form" id="0153167c-7c75-46ad-b0af-853074a4085b.0" configVersion="08598cb023c3fc1489287601b22380af160decfa"/>
+		<Metadata name="Catalog.НастройкиДоступностиПоСостоянию" id="8f5f4ea9-1b7a-4b20-875c-d53232637d87" configVersion="99bd846f2bdbcda828a9abbcd6f9acb8a94c2468">
+			<Metadata name="Catalog.НастройкиДоступностиПоСостоянию.Attribute.Комментарий" id="0bc12bf7-a640-4e03-a9d0-2133334dc8c0"/>
+			<Metadata name="Catalog.НастройкиДоступностиПоСостоянию.Attribute.ТипДокумента" id="164a808c-9bf6-4885-a03b-e196e5991c68"/>
+			<Metadata name="Catalog.НастройкиДоступностиПоСостоянию.TabularSection.ИспользоватьДля.Attribute.Участник" id="4cbbf3c8-01cb-4ca7-b08c-568b03dbaf13"/>
+			<Metadata name="Catalog.НастройкиДоступностиПоСостоянию.TabularSection.ИспользоватьДля" id="759014e7-4483-43f1-98fe-7a6d65e72b26"/>
+			<Metadata name="Catalog.НастройкиДоступностиПоСостоянию.Attribute.ВариантНастройкиДляВидовДокументов" id="c1cd15a5-7516-4da8-bf99-ccf5732dda50"/>
+		</Metadata>
+		<Metadata name="Catalog.НастройкиДоступностиПоСостоянию.Form.ФормаЭлемента" id="4fc95f40-9bcd-48a7-93d9-b469c17bf30c" configVersion="372d10780b276f1a03cf6f25c7781ef094b167d2"/>
+		<Metadata name="Catalog.НастройкиДоступностиПоСостоянию.Form.ФормаЭлемента.Form" id="4fc95f40-9bcd-48a7-93d9-b469c17bf30c.0" configVersion="39e9390f1d53dc4c5fcb346234fd9e88424a5fa6"/>
+		<Metadata name="CommonModule.Делопроизводство" id="cd5c54e6-0957-460b-a488-1c00fa5f2227" configVersion="3be6f77229acff04774d30568cf0b88bb5466db5"/>
+		<Metadata name="CommonModule.Делопроизводство.Module" id="cd5c54e6-0957-460b-a488-1c00fa5f2227.0" configVersion="9a4cac3e0bad91327cddd254d88cd2cd07d01e4c"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияДокументооборот" id="5ec7edb3-1470-4105-94ee-ea12a575b75e" configVersion="e7615b7abb8b27bb03e05d4f1bc0dfbc7f72cbc8"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияДокументооборот.Module" id="5ec7edb3-1470-4105-94ee-ea12a575b75e.0" configVersion="6ae06b75d6aff23e274de26a42e57867b461c45c"/>
+		<Metadata name="Configuration.ДокументооборотКОРП_АдаптацияНастроекДоступностиПоСостоянию" id="a527cf01-e092-4699-86f1-618db49e1571" configVersion="72c69c3aae50cbcc24c36c35f4c03d51d198d395"/>
+		<Metadata name="Enum.ВариантыНастройкиДоступностиДляВидовДокументов" id="38ed6768-3ae8-4692-b101-8e00b2a6099f" configVersion="8f67b37f394945af31a070eaf7109e1d16e3681f">
+			<Metadata name="Enum.ВариантыНастройкиДоступностиДляВидовДокументов.EnumValue.ДляВсехВидовДокументов" id="4dd8731c-8d68-4eb4-b961-42f76fb37f53"/>
+			<Metadata name="Enum.ВариантыНастройкиДоступностиДляВидовДокументов.EnumValue.ДляВыбранныхВидовДокументов" id="9b0cf98b-456a-4452-b20d-47c168988870"/>
+		</Metadata>
+		<Metadata name="Enum.ТипыОбъектов" id="8b48fefb-41db-44fd-ba82-ecb63cfcba8a" configVersion="bf5e2d5f5195eac1219bd4387bea20dd263c48ba"/>
+		<Metadata name="InformationRegister.НастройкиДоступностиДляВидовДокументов" id="c93e03f6-d494-4a7b-b8bf-4afcb447a596" configVersion="c4b9c70651fb8db5f74ed6b6e4fcd136cd14b0bd">
+			<Metadata name="InformationRegister.НастройкиДоступностиДляВидовДокументов.Dimension.НастройкаДоступностиПоСостоянию" id="78ca65e1-af70-48ed-be2c-1baf9413190c"/>
+			<Metadata name="InformationRegister.НастройкиДоступностиДляВидовДокументов.Dimension.ВидДокумента" id="831bf9a7-0302-4dfe-b96b-1a51d42a9d0a"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="e61d1adf-91c0-4c8e-9303-42ba47ba9290" configVersion="d3f7a396eed35ea120468a380ea9c422d1dbe3f4"/>
+		<Metadata name="StyleItem.ЗапрещенноеПравоДоступа" id="31feb737-f334-4d09-92ca-8cc7b9834a7e" configVersion="b355e69726b0a68380a7f77ab02fddf0f88b0972"/>
+		<Metadata name="StyleItem.ИнформационнаяНадпись" id="4040dab7-a069-48c0-91a6-294fddbb61df" configVersion="aada164b88b9fc26c132225e61b350245aebb563"/>
+		<Metadata name="StyleItem.НедействительныеОбъекты" id="17c81a2a-8985-4f01-aed8-3d8f698fa16d" configVersion="c18856bf6827a402f7d7d277fb62754feac483dc"/>
+		<Metadata name="StyleItem.НеустановленноеПравоДоступа" id="cd4500da-f593-4084-92fa-8e95725078dd" configVersion="8357cd0238f526be072ab6fb5166087a46b74eb6"/>
+		<Metadata name="StyleItem.РазрешенноеПравоДоступа" id="07da7429-f215-41a7-bd6d-65ea221c11e1" configVersion="2c488a9dde81ac1a18fd0c8f332aa7259a7a6ef3"/>
+		<Metadata name="StyleItem.ЦветФонаВсеПоля" id="15d4ad0b-da71-4394-b064-2b8b64303dc7" configVersion="ec07f1f9be4da446b0583435e690dfa3471ed323"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

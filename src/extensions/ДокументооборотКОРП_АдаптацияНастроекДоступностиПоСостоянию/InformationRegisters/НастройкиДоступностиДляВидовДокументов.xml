@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="c93e03f6-d494-4a7b-b8bf-4afcb447a596">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиДоступностиДляВидовДокументов" category="Record">
+				<xr:TypeId>9f941db4-d5cc-44cc-92d8-f30a78352a66</xr:TypeId>
+				<xr:ValueId>8df3fd15-a481-467f-befa-ef8eb0394889</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиДоступностиДляВидовДокументов" category="Manager">
+				<xr:TypeId>3f958958-0b3e-4d73-abbc-4a6a7a14e997</xr:TypeId>
+				<xr:ValueId>847aaa8e-8fb8-49c3-9f71-f41e120157fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиДоступностиДляВидовДокументов" category="Selection">
+				<xr:TypeId>8a1709f4-da9e-4364-b452-8254eb8202e1</xr:TypeId>
+				<xr:ValueId>fa962a31-5ee8-4ace-85cd-17e81757a57e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиДоступностиДляВидовДокументов" category="List">
+				<xr:TypeId>7d21922a-52ee-4232-8b62-8360c2af3033</xr:TypeId>
+				<xr:ValueId>7fae597a-e1f2-4543-991a-47d0f87c580d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиДоступностиДляВидовДокументов" category="RecordSet">
+				<xr:TypeId>a7eec761-0239-46c7-b97a-f466267ee3d9</xr:TypeId>
+				<xr:ValueId>20cba9d7-2370-4642-8f04-32c0aca5b45e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиДоступностиДляВидовДокументов" category="RecordKey">
+				<xr:TypeId>ce4e868a-c797-4127-9003-83138c06d100</xr:TypeId>
+				<xr:ValueId>228e495f-48d5-4061-8a33-c9c1a2fec6f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиДоступностиДляВидовДокументов" category="RecordManager">
+				<xr:TypeId>9409657b-f3bd-4cbd-b8e7-5fc0a43a1010</xr:TypeId>
+				<xr:ValueId>24c0aee4-9b1d-473f-bb65-46b75f4504a7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкиДоступностиДляВидовДокументов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="831bf9a7-0302-4dfe-b96b-1a51d42a9d0a">
+				<Properties>
+					<Name>ВидДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="78ca65e1-af70-48ed-be2c-1baf9413190c">
+				<Properties>
+					<Name>НастройкаДоступностиПоСостоянию</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.НастройкиДоступностиПоСостоянию</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>
