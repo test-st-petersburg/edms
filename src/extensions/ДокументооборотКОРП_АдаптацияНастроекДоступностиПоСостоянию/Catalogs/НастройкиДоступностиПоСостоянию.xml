@@ -26,6 +26,7 @@
 		<Properties>
 			<Name>НастройкиДоступностиПоСостоянию</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>150</DescriptionLength>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="164a808c-9bf6-4885-a03b-e196e5991c68">
@@ -59,6 +60,34 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<TabularSection uuid="759014e7-4483-43f1-98fe-7a6d65e72b26">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.НастройкиДоступностиПоСостоянию.ИспользоватьДля" category="TabularSection">
+						<xr:TypeId>ebcf7cfd-0942-4d26-bb84-06487e1a2b37</xr:TypeId>
+						<xr:ValueId>7b59ecd5-d18f-4f8e-8a4e-b3c3a671dc32</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.НастройкиДоступностиПоСостоянию.ИспользоватьДля" category="TabularSectionRow">
+						<xr:TypeId>00f1b11a-f6de-4f0b-9c50-0bc1b1684c72</xr:TypeId>
+						<xr:ValueId>681b8fcd-4c96-4b01-84e5-7e94fc52e02e</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ИспользоватьДля</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="4cbbf3c8-01cb-4ca7-b08c-568b03dbaf13">
+						<Properties>
+							<Name>Участник</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

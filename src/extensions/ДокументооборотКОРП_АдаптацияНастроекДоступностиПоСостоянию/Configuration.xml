@@ -63,6 +63,12 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<StyleItem>НедействительныеОбъекты</StyleItem>
+			<StyleItem>ЦветФонаВсеПоля</StyleItem>
+			<StyleItem>ИнформационнаяНадпись</StyleItem>
+			<StyleItem>РазрешенноеПравоДоступа</StyleItem>
+			<StyleItem>ЗапрещенноеПравоДоступа</StyleItem>
+			<StyleItem>НеустановленноеПравоДоступа</StyleItem>
 			<CommonModule>Делопроизводство</CommonModule>
 			<CommonModule>ОбщегоНазначенияДокументооборот</CommonModule>
 			<Catalog>ВидыВнутреннихДокументов</Catalog>
