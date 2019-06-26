@@ -26,6 +26,7 @@
     ],
     "ignoreRegExpList": [
         "AppVeyor",
+        "репозитори(й|я|ю|ем|и)",
         "\\.gitattributes",
         "\\[.*?\\]\\(.*?\\)"
     ]
