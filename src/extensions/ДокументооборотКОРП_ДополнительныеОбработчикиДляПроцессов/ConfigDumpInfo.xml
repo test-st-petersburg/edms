@@ -7,6 +7,11 @@
 		<Metadata name="Catalog.ВходящиеДокументы" id="1007a701-2922-44bd-8f90-122f50f614a7" configVersion="c0472f066c6dc1348376be7b96057cbffa36f60d">
 			<Metadata name="Catalog.ВходящиеДокументы.Attribute.Подразделение" id="9f3850b2-6129-4ff9-9075-83ef71b8652c"/>
 		</Metadata>
+		<Metadata name="Catalog.ЗначенияСвойствОбъектов" id="6d4c71d1-b42a-443f-9311-4e0f2a5ceb09" configVersion="4ddb4c68b27c58caf1d48699a0a1a2ba9b79c4d8">
+			<Metadata name="Catalog.ЗначенияСвойствОбъектов.Attribute.ПолноеНаименование" id="88e52b20-7ceb-41a5-8212-f658c07ed7de"/>
+			<Metadata name="Catalog.ЗначенияСвойствОбъектов.Attribute.Вес" id="d32c82bb-fefd-47fe-baa4-83b05da7a8d8"/>
+		</Metadata>
+		<Metadata name="Catalog.ЗначенияСвойствОбъектов.ManagerModule" id="6d4c71d1-b42a-443f-9311-4e0f2a5ceb09.3" configVersion="b728aff479bd1d1a2b886cb779f2fb50b5442000"/>
 		<Metadata name="Catalog.ИсходящиеДокументы" id="a477b3ba-c330-420a-96ea-d59fdb06dc24" configVersion="a67a7a05380358fc1c59fb7f8ec1374c40ba210d">
 			<Metadata name="Catalog.ИсходящиеДокументы.Attribute.Подразделение" id="622db9fe-6777-4917-af05-d61889fbb61c"/>
 		</Metadata>
@@ -14,22 +19,31 @@
 		<Metadata name="Catalog.РолиИсполнителей" id="52a53583-817b-4288-8658-66b1d6be3266" configVersion="4dc7f0bbd012ccef2898f9e4ceb5319c7cbea67c"/>
 		<Metadata name="Catalog.РолиИсполнителей.ManagerModule" id="52a53583-817b-4288-8658-66b1d6be3266.3" configVersion="326b58607e1c12be01f685b5a51a29ab92ebe9a3"/>
 		<Metadata name="Catalog.СтруктураПредприятия" id="12233006-56a6-478c-a5e5-a37825a49524" configVersion="3693e4e5a3b4c7e08928f2be5b65d37920f3ad2f"/>
+		<Metadata name="ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения" id="c372364d-bd49-4624-a462-2a1cbdbb7c28" configVersion="e1e2bb8524c380e7ace11246354f94cdeba3bac8">
+			<Metadata name="ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.Attribute.ДополнительныеЗначенияСВесом" id="3eef4564-b48c-447f-a0d6-60b969a4620b"/>
+			<Metadata name="ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.Attribute.ДополнительныеЗначенияИспользуются" id="b4fedbad-04ae-496b-9ea0-39c45b367ca6"/>
+		</Metadata>
+		<Metadata name="ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.ManagerModule" id="c372364d-bd49-4624-a462-2a1cbdbb7c28.16" configVersion="12bf02c010d1ecd362cc5017c99050550b23c5fd"/>
 		<Metadata name="ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач" id="3cdde6f1-ed15-4fdb-ac56-99ca42f11fc0" configVersion="89a7284ec899356f145340e29adac5e93b382d64"/>
 		<Metadata name="ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач.Predefined" id="3cdde6f1-ed15-4fdb-ac56-99ca42f11fc0.7" configVersion="e6a60d7311cadc8543a062c1af12fd33fc29d4f7"/>
 		<Metadata name="CommonModule.ДелопроизводствоКлиентСервер" id="ceb95fae-94f6-4e3a-a267-ef08fd7543d1" configVersion="0e52abdabab04edfa3303d597cb155a7eec24a32"/>
 		<Metadata name="CommonModule.ИТГ_Мультипредметность" id="701a4ab0-4fcc-4e58-9dd7-363f825fad3a" configVersion="8d91de172626aacd32a0eeeefd4035d9b54863c2"/>
-		<Metadata name="CommonModule.ИТГ_Мультипредметность.Module" id="701a4ab0-4fcc-4e58-9dd7-363f825fad3a.0" configVersion="7bfcac29ca395bfdf6831438e1ec62402ccbec71"/>
+		<Metadata name="CommonModule.ИТГ_Мультипредметность.Module" id="701a4ab0-4fcc-4e58-9dd7-363f825fad3a.0" configVersion="8854924f49803a11191b8d77eb1ec51cc77085a0"/>
+		<Metadata name="CommonModule.ИТГ_УправлениеСвойствами" id="1bbb3b75-e289-4372-83fa-748a4abda090" configVersion="5b6fc74f37d9cc19417edf39105681079c0ddaa2"/>
+		<Metadata name="CommonModule.ИТГ_УправлениеСвойствами.Module" id="1bbb3b75-e289-4372-83fa-748a4abda090.0" configVersion="217db6cd6def99f0893731071fa2bc668fe25844"/>
 		<Metadata name="CommonModule.ИТГ_ШаблоныБизнесПроцессов" id="c8ca82e3-9ecf-45ec-9eda-b8f93a27634c" configVersion="7e5ef7320e6585cd35843ff8b8c5def3512971e4"/>
 		<Metadata name="CommonModule.ИТГ_ШаблоныБизнесПроцессов.Module" id="c8ca82e3-9ecf-45ec-9eda-b8f93a27634c.0" configVersion="0f945a6fa9464e5f2475e6b97e4ead682d3b81a5"/>
 		<Metadata name="CommonModule.Мультипредметность" id="60d9a0f4-33b3-46b2-bcc8-0288b2a48c4f" configVersion="7f6992f2a10f6704c42ad3d32de6168a91d6c0ce"/>
 		<Metadata name="CommonModule.Мультипредметность.Module" id="60d9a0f4-33b3-46b2-bcc8-0288b2a48c4f.0" configVersion="654d13203aa2627fc86a34136c8191fbbc3fcfe0"/>
+		<Metadata name="CommonModule.ОбщегоНазначения" id="41a563c4-dd87-41b9-af71-d42885e21743" configVersion="0ea76127e61290f7bfe4b6551b04f45ff5ea14c4"/>
 		<Metadata name="CommonModule.ШаблоныБизнесПроцессовПереопределяемый" id="a529304f-d0ca-4c1b-b01c-aa2cfe2d41a4" configVersion="2bea6b821923378be91aaafaa2ae047aa55f4774"/>
 		<Metadata name="CommonModule.ШаблоныБизнесПроцессовПереопределяемый.Module" id="a529304f-d0ca-4c1b-b01c-aa2cfe2d41a4.0" configVersion="e08ff60e585c533bd7957e632a8ecdd3328f1236"/>
-		<Metadata name="Configuration.ДокументооборотКОРП_ДополнительныеОбработчикиДляПроцессов" id="101d1998-6b57-4af7-9e1e-315eaf14b95c" configVersion="b2f36597a8b6c09165f359516f6aebf2f11f7083"/>
+		<Metadata name="Configuration.ДокументооборотКОРП_ДополнительныеОбработчикиДляПроцессов" id="101d1998-6b57-4af7-9e1e-315eaf14b95c" configVersion="bd44ed65bccd455ff2d46c7be7c1285126391e47"/>
 		<Metadata name="Language.Русский" id="a7f8adfc-c93b-44bc-855a-76a5151d55f4" configVersion="0dd801da27851f8d3b27d2bdbf954630ff665e72"/>
 		<Metadata name="Subsystem.ДокументыИФайлы" id="98f0685b-fe95-4a19-b7ae-78de37ecac5d" configVersion="f3baa5b8a0455d7016aebad6c2db48f85ef367c1"/>
-		<Metadata name="Subsystem.СтандартныеПодсистемы" id="1371b1e2-f640-45ba-941f-ce9927edeecd" configVersion="0b160b4e7de03cd7a6f30f7a47559941af146bb8"/>
+		<Metadata name="Subsystem.СтандартныеПодсистемы" id="1371b1e2-f640-45ba-941f-ce9927edeecd" configVersion="bca4bb672fa3c7612c0d2f2f49aa9337bca143ea"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.БизнесПроцессыИЗадачи" id="4758dcdd-49e9-4b36-8d87-fa23dbbe7566" configVersion="f1509b8f2a55d9d90a364159b582bf40bfc610db"/>
+		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.Свойства" id="14a19757-429c-4018-aaa7-ae02c2c86792" configVersion="5a09a96a54ad8eaa1cd20e0e05442667da9ad3ca"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемыДокументооборота" id="0722e173-fd48-4510-8304-3d03a6c78bd1" configVersion="34fd92e22ecf9183b23a648e6627cdc2827116b7"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемыДокументооборота.Subsystem.БизнесПроцессыИЗадачи" id="65098492-7fd6-414d-9c7d-ece0ba7865bc" configVersion="ae39c7300ae11aa7c80b1d895e6b3760b8013e2e"/>
 		<Metadata name="Subsystem.УправлениеБизнесПроцессами" id="1a73e24b-7f66-4eb0-b3a1-1169b1c28a97" configVersion="47d2e48ecf0b2e49126e3c7bc1f2bd05e755c0a3"/>
