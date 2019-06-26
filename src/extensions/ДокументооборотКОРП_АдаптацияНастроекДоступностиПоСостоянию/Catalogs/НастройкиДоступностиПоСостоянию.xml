@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="8f5f4ea9-1b7a-4b20-875c-d53232637d87">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НастройкиДоступностиПоСостоянию" category="Object">
+				<xr:TypeId>7637a2ea-894c-43ab-bafb-b025607dd89b</xr:TypeId>
+				<xr:ValueId>1df05928-23f3-4f71-a792-eb0df7d6938c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НастройкиДоступностиПоСостоянию" category="Ref">
+				<xr:TypeId>4254a47f-c701-42b8-a490-71529adf259d</xr:TypeId>
+				<xr:ValueId>e1f77fdc-aa14-4203-b296-96c8a41292ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НастройкиДоступностиПоСостоянию" category="Selection">
+				<xr:TypeId>3e927894-f927-47f2-b013-82b6b89eaf0b</xr:TypeId>
+				<xr:ValueId>84467c27-1f2d-42a6-ad08-f857f1f5a99f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НастройкиДоступностиПоСостоянию" category="List">
+				<xr:TypeId>56ceb0d4-5c90-40b3-886d-e2e92c28fbc8</xr:TypeId>
+				<xr:ValueId>404948ec-4b0a-4ea4-8a2c-81a0cd971dd5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НастройкиДоступностиПоСостоянию" category="Manager">
+				<xr:TypeId>eaf9a211-3ece-49d4-bba4-15ca130891f8</xr:TypeId>
+				<xr:ValueId>e455a1b2-e680-46bf-8986-64de845ca9b7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкиДоступностиПоСостоянию</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="164a808c-9bf6-4885-a03b-e196e5991c68">
+				<Properties>
+					<Name>ТипДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыОбъектов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0bc12bf7-a640-4e03-a9d0-2133334dc8c0">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c1cd15a5-7516-4da8-bf99-ccf5732dda50">
+				<Properties>
+					<Name>ВариантНастройкиДляВидовДокументов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВариантыНастройкиДоступностиДляВидовДокументов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="759014e7-4483-43f1-98fe-7a6d65e72b26">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.НастройкиДоступностиПоСостоянию.ИспользоватьДля" category="TabularSection">
+						<xr:TypeId>ebcf7cfd-0942-4d26-bb84-06487e1a2b37</xr:TypeId>
+						<xr:ValueId>7b59ecd5-d18f-4f8e-8a4e-b3c3a671dc32</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.НастройкиДоступностиПоСостоянию.ИспользоватьДля" category="TabularSectionRow">
+						<xr:TypeId>00f1b11a-f6de-4f0b-9c50-0bc1b1684c72</xr:TypeId>
+						<xr:ValueId>681b8fcd-4c96-4b01-84e5-7e94fc52e02e</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ИспользоватьДля</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="4cbbf3c8-01cb-4ca7-b08c-568b03dbaf13">
+						<Properties>
+							<Name>Участник</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
