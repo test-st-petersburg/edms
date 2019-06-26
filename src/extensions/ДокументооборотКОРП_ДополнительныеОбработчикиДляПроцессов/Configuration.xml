@@ -46,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>1.1.2</Version>
+			<Version>1.3.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -67,18 +67,22 @@
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
 			<Subsystem>СтандартныеПодсистемыДокументооборота</Subsystem>
 			<Subsystem>УправлениеБизнесПроцессами</Subsystem>
-			<CommonModule>Мультипредметность</CommonModule>
 			<CommonModule>ДелопроизводствоКлиентСервер</CommonModule>
-			<CommonModule>ШаблоныБизнесПроцессовПереопределяемый</CommonModule>
-			<CommonModule>ИТГ_ШаблоныБизнесПроцессов</CommonModule>
 			<CommonModule>ИТГ_Мультипредметность</CommonModule>
+			<CommonModule>ИТГ_УправлениеСвойствами</CommonModule>
+			<CommonModule>ИТГ_ШаблоныБизнесПроцессов</CommonModule>
+			<CommonModule>Мультипредметность</CommonModule>
+			<CommonModule>ОбщегоНазначения</CommonModule>
+			<CommonModule>ШаблоныБизнесПроцессовПереопределяемый</CommonModule>
 			<Catalog>ВнутренниеДокументы</Catalog>
 			<Catalog>ВходящиеДокументы</Catalog>
 			<Catalog>ИсходящиеДокументы</Catalog>
 			<Catalog>ПолныеРоли</Catalog>
 			<Catalog>СтруктураПредприятия</Catalog>
 			<Catalog>РолиИсполнителей</Catalog>
+			<Catalog>ЗначенияСвойствОбъектов</Catalog>
 			<ChartOfCharacteristicTypes>ОбъектыАдресацииЗадач</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
