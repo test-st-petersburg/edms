@@ -21,9 +21,11 @@
 			<Metadata name="Catalog.НастройкиДоступностиПоСостоянию.Attribute.ТипДокумента" id="164a808c-9bf6-4885-a03b-e196e5991c68"/>
 			<Metadata name="Catalog.НастройкиДоступностиПоСостоянию.Attribute.ВариантНастройкиДляВидовДокументов" id="c1cd15a5-7516-4da8-bf99-ccf5732dda50"/>
 		</Metadata>
-		<Metadata name="CommonModule.Делопроизводство" id="cd5c54e6-0957-460b-a488-1c00fa5f2227" configVersion="c4428befe88355f8759f9b310597381598666c83"/>
-		<Metadata name="CommonModule.Делопроизводство.Module" id="cd5c54e6-0957-460b-a488-1c00fa5f2227.0" configVersion="68b513b920418934f27b2e7dcd1ae96086077e82"/>
-		<Metadata name="Configuration.ДокументооборотКОРП_АдаптацияНастроекДоступностиПоСостоянию" id="a527cf01-e092-4699-86f1-618db49e1571" configVersion="966e1b61c1250d3a11366166235380c484148914"/>
+		<Metadata name="CommonModule.Делопроизводство" id="cd5c54e6-0957-460b-a488-1c00fa5f2227" configVersion="3be6f77229acff04774d30568cf0b88bb5466db5"/>
+		<Metadata name="CommonModule.Делопроизводство.Module" id="cd5c54e6-0957-460b-a488-1c00fa5f2227.0" configVersion="9a4cac3e0bad91327cddd254d88cd2cd07d01e4c"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияДокументооборот" id="5ec7edb3-1470-4105-94ee-ea12a575b75e" configVersion="e7615b7abb8b27bb03e05d4f1bc0dfbc7f72cbc8"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияДокументооборот.Module" id="5ec7edb3-1470-4105-94ee-ea12a575b75e.0" configVersion="6ae06b75d6aff23e274de26a42e57867b461c45c"/>
+		<Metadata name="Configuration.ДокументооборотКОРП_АдаптацияНастроекДоступностиПоСостоянию" id="a527cf01-e092-4699-86f1-618db49e1571" configVersion="64202880b82be602ecfadcc23bdec823ca48d342"/>
 		<Metadata name="Enum.ВариантыНастройкиДоступностиДляВидовДокументов" id="38ed6768-3ae8-4692-b101-8e00b2a6099f" configVersion="8f67b37f394945af31a070eaf7109e1d16e3681f">
 			<Metadata name="Enum.ВариантыНастройкиДоступностиДляВидовДокументов.EnumValue.ДляВсехВидовДокументов" id="4dd8731c-8d68-4eb4-b961-42f76fb37f53"/>
 			<Metadata name="Enum.ВариантыНастройкиДоступностиДляВидовДокументов.EnumValue.ДляВыбранныхВидовДокументов" id="9b0cf98b-456a-4452-b20d-47c168988870"/>
