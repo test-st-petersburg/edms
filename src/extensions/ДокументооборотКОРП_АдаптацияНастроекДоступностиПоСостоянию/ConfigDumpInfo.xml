@@ -24,12 +24,10 @@
 			<Metadata name="Catalog.НастройкиДоступностиПоСостоянию.Attribute.ВариантНастройкиДляВидовДокументов" id="c1cd15a5-7516-4da8-bf99-ccf5732dda50"/>
 		</Metadata>
 		<Metadata name="Catalog.НастройкиДоступностиПоСостоянию.Form.ФормаЭлемента" id="4fc95f40-9bcd-48a7-93d9-b469c17bf30c" configVersion="372d10780b276f1a03cf6f25c7781ef094b167d2"/>
-		<Metadata name="Catalog.НастройкиДоступностиПоСостоянию.Form.ФормаЭлемента.Form" id="4fc95f40-9bcd-48a7-93d9-b469c17bf30c.0" configVersion="39e9390f1d53dc4c5fcb346234fd9e88424a5fa6"/>
-		<Metadata name="CommonModule.Делопроизводство" id="cd5c54e6-0957-460b-a488-1c00fa5f2227" configVersion="3be6f77229acff04774d30568cf0b88bb5466db5"/>
-		<Metadata name="CommonModule.Делопроизводство.Module" id="cd5c54e6-0957-460b-a488-1c00fa5f2227.0" configVersion="9a4cac3e0bad91327cddd254d88cd2cd07d01e4c"/>
-		<Metadata name="CommonModule.ОбщегоНазначенияДокументооборот" id="5ec7edb3-1470-4105-94ee-ea12a575b75e" configVersion="e7615b7abb8b27bb03e05d4f1bc0dfbc7f72cbc8"/>
-		<Metadata name="CommonModule.ОбщегоНазначенияДокументооборот.Module" id="5ec7edb3-1470-4105-94ee-ea12a575b75e.0" configVersion="6ae06b75d6aff23e274de26a42e57867b461c45c"/>
-		<Metadata name="Configuration.ДокументооборотКОРП_АдаптацияНастроекДоступностиПоСостоянию" id="a527cf01-e092-4699-86f1-618db49e1571" configVersion="72c69c3aae50cbcc24c36c35f4c03d51d198d395"/>
+		<Metadata name="Catalog.НастройкиДоступностиПоСостоянию.Form.ФормаЭлемента.Form" id="4fc95f40-9bcd-48a7-93d9-b469c17bf30c.0" configVersion="f9862b352e10f0f563795c4a6877a709d3d0355c"/>
+		<Metadata name="CommonModule.Делопроизводство" id="cd5c54e6-0957-460b-a488-1c00fa5f2227" configVersion="c4428befe88355f8759f9b310597381598666c83"/>
+		<Metadata name="CommonModule.Делопроизводство.Module" id="cd5c54e6-0957-460b-a488-1c00fa5f2227.0" configVersion="6a5cf2d051c948bb21f2d9c69fc8d82f346a8969"/>
+		<Metadata name="Configuration.ДокументооборотКОРП_АдаптацияНастроекДоступностиПоСостоянию" id="a527cf01-e092-4699-86f1-618db49e1571" configVersion="676a6f00f5348c5cba7a6e47830f9ff5a95c7a57"/>
 		<Metadata name="Enum.ВариантыНастройкиДоступностиДляВидовДокументов" id="38ed6768-3ae8-4692-b101-8e00b2a6099f" configVersion="8f67b37f394945af31a070eaf7109e1d16e3681f">
 			<Metadata name="Enum.ВариантыНастройкиДоступностиДляВидовДокументов.EnumValue.ДляВсехВидовДокументов" id="4dd8731c-8d68-4eb4-b961-42f76fb37f53"/>
 			<Metadata name="Enum.ВариантыНастройкиДоступностиДляВидовДокументов.EnumValue.ДляВыбранныхВидовДокументов" id="9b0cf98b-456a-4452-b20d-47c168988870"/>
