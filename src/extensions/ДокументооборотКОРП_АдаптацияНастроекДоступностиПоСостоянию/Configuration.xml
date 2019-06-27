@@ -46,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>1.0.1</Version>
+			<Version>1.0.2</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -70,7 +70,6 @@
 			<StyleItem>ЗапрещенноеПравоДоступа</StyleItem>
 			<StyleItem>НеустановленноеПравоДоступа</StyleItem>
 			<CommonModule>Делопроизводство</CommonModule>
-			<CommonModule>ОбщегоНазначенияДокументооборот</CommonModule>
 			<Catalog>ВидыВнутреннихДокументов</Catalog>
 			<Catalog>ВидыВходящихДокументов</Catalog>
 			<Catalog>ВидыИсходящихДокументов</Catalog>
