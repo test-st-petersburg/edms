@@ -26,7 +26,7 @@
 		<Metadata name="Catalog.НастройкиДоступностиПоСостоянию.Form.ФормаЭлемента" id="4fc95f40-9bcd-48a7-93d9-b469c17bf30c" configVersion="372d10780b276f1a03cf6f25c7781ef094b167d2"/>
 		<Metadata name="Catalog.НастройкиДоступностиПоСостоянию.Form.ФормаЭлемента.Form" id="4fc95f40-9bcd-48a7-93d9-b469c17bf30c.0" configVersion="f9862b352e10f0f563795c4a6877a709d3d0355c"/>
 		<Metadata name="CommonModule.Делопроизводство" id="cd5c54e6-0957-460b-a488-1c00fa5f2227" configVersion="c4428befe88355f8759f9b310597381598666c83"/>
-		<Metadata name="CommonModule.Делопроизводство.Module" id="cd5c54e6-0957-460b-a488-1c00fa5f2227.0" configVersion="6a5cf2d051c948bb21f2d9c69fc8d82f346a8969"/>
+		<Metadata name="CommonModule.Делопроизводство.Module" id="cd5c54e6-0957-460b-a488-1c00fa5f2227.0" configVersion="ee5d2b7069db6e70733b2f4df8994f2792c2620e"/>
 		<Metadata name="Configuration.ДокументооборотКОРП_АдаптацияНастроекДоступностиПоСостоянию" id="a527cf01-e092-4699-86f1-618db49e1571" configVersion="676a6f00f5348c5cba7a6e47830f9ff5a95c7a57"/>
 		<Metadata name="Enum.ВариантыНастройкиДоступностиДляВидовДокументов" id="38ed6768-3ae8-4692-b101-8e00b2a6099f" configVersion="8f67b37f394945af31a070eaf7109e1d16e3681f">
 			<Metadata name="Enum.ВариантыНастройкиДоступностиДляВидовДокументов.EnumValue.ДляВсехВидовДокументов" id="4dd8731c-8d68-4eb4-b961-42f76fb37f53"/>
