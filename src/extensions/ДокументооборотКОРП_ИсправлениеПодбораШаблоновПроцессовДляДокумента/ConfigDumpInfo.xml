@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.7">
+	<ConfigVersions>
+		<Metadata name="CommonModule.ШаблоныБизнесПроцессов" id="bf3c60cd-5487-4e97-ae1c-7d9a37a8645a" configVersion="04ce15723dabb46d966ae7993efbff1a6026de0c"/>
+		<Metadata name="CommonModule.ШаблоныБизнесПроцессов.Module" id="bf3c60cd-5487-4e97-ae1c-7d9a37a8645a.0" configVersion="196e5386ed91fa1cdb48b5255d0d87e5d884e3f1"/>
+		<Metadata name="Configuration.ДокументооборотКОРП_ИсправлениеПодбораШаблоновПроцессовДляДокумента" id="402c895e-13a5-45a4-8d92-f50f59e0a5c2" configVersion="b071630484b118d240aa238698b10359baf49fd5"/>
+		<Metadata name="Language.Русский" id="b6561cbf-ab4f-4831-a9f8-e443d982b090" configVersion="e77e73a98581b1fcc7339814657f6a9de5f7c815"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
