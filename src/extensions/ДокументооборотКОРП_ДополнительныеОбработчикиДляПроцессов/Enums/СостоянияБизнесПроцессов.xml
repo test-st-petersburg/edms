@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="48909eb1-b897-4842-865f-2e1e65dfdf08">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияБизнесПроцессов" category="Ref">
+				<xr:TypeId>4a0cddba-22d3-4efe-97fa-885a7ffad36b</xr:TypeId>
+				<xr:ValueId>e0edb2dd-63c7-4346-8368-aed75813eaea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияБизнесПроцессов" category="Manager">
+				<xr:TypeId>17d0c1c6-7dff-4033-9c0a-9b2cc30e6751</xr:TypeId>
+				<xr:ValueId>92965118-b3e4-48cc-bc5d-c8b43f5460f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияБизнесПроцессов" category="List">
+				<xr:TypeId>f151de79-79ef-45e9-8eca-5e7fe206225e</xr:TypeId>
+				<xr:ValueId>f574889c-5a74-4741-a80a-efc5f62b77b0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияБизнесПроцессов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="d4ca13bc-c235-4418-9b3a-03baab7df016">
+				<Properties>
+					<Name>Активен</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6f024790-2bd5-41b6-89f7-aa7b3c3a139f">
+				<Properties>
+					<Name>Остановлен</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4dee3280-dbcf-4177-9cf4-65ef4bdea038">
+				<Properties>
+					<Name>Прерван</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
