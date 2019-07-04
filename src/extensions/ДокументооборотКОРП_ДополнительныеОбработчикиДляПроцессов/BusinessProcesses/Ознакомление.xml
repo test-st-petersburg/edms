@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<BusinessProcess uuid="669b44f8-2a61-4a55-9ca1-4f1bafa334b7">
+		<InternalInfo>
+			<xr:GeneratedType name="BusinessProcessObject.Ознакомление" category="Object">
+				<xr:TypeId>25d80ef5-6e37-447b-af46-2afa56187fad</xr:TypeId>
+				<xr:ValueId>c81c417a-259f-4257-8eb2-3ef5e92ddbf8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessRef.Ознакомление" category="Ref">
+				<xr:TypeId>60d7729d-bd49-4fa7-aec5-adfad6d10422</xr:TypeId>
+				<xr:ValueId>f6923086-3a2b-41b4-b165-6a169cbae571</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessSelection.Ознакомление" category="Selection">
+				<xr:TypeId>0d512dfe-e7ed-44a2-a1d2-f25ff92e5d76</xr:TypeId>
+				<xr:ValueId>bdad1cdf-5d50-420c-9770-a28e219a349a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessList.Ознакомление" category="List">
+				<xr:TypeId>58f09b40-759f-41b5-81d0-404bf243ee40</xr:TypeId>
+				<xr:ValueId>f173058f-75bf-4c52-8947-498d23e4e130</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessManager.Ознакомление" category="Manager">
+				<xr:TypeId>0ca6c5b8-2481-4bff-a38b-fb8a1a74bfc6</xr:TypeId>
+				<xr:ValueId>26cc1e9c-80a4-4feb-893d-db988d50eb2b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessRoutePointRef.Ознакомление" category="RoutePointRef">
+				<xr:TypeId>9b0f39a6-9105-4e2b-9ab0-b70cee2d71e4</xr:TypeId>
+				<xr:ValueId>6ff76e0b-5f31-492d-9322-94689eedc4b2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Ознакомление</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</BusinessProcess>
+</MetaDataObject>
