@@ -46,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>1.5.0</Version>
+			<Version>1.5.1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -82,6 +82,8 @@
 			<Catalog>СтруктураПредприятия</Catalog>
 			<Catalog>РолиИсполнителей</Catalog>
 			<Catalog>ЗначенияСвойствОбъектов</Catalog>
+			<Catalog>Пользователи</Catalog>
+			<InformationRegister>ИсполнителиЗадач</InformationRegister>
 			<ChartOfCharacteristicTypes>ОбъектыАдресацииЗадач</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 		</ChildObjects>

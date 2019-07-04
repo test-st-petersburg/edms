@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="bca87004-0443-4c85-ab7e-f3d75f96d0b2">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ИсполнителиЗадач" category="Record">
+				<xr:TypeId>5aa6dce3-1cce-4c5f-af08-341e1f64e28e</xr:TypeId>
+				<xr:ValueId>5ce94d3a-78a8-4d72-a425-11b225eefe6c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ИсполнителиЗадач" category="Manager">
+				<xr:TypeId>f4b8dab5-b280-4d65-9ccf-871fbbb49fec</xr:TypeId>
+				<xr:ValueId>412690cc-f58b-49c0-9cb6-f7b6fb26d3c9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ИсполнителиЗадач" category="Selection">
+				<xr:TypeId>9241ef72-5996-4d26-9a65-09d8d3544132</xr:TypeId>
+				<xr:ValueId>9278c12b-caf4-483b-bfad-291c405b7367</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ИсполнителиЗадач" category="List">
+				<xr:TypeId>7dd2d195-74f5-490f-b8fc-32dfc14c31e3</xr:TypeId>
+				<xr:ValueId>7428175b-3831-411e-949d-a5dcbca88841</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ИсполнителиЗадач" category="RecordSet">
+				<xr:TypeId>f60c1379-9c12-4853-9bca-a809ede20e19</xr:TypeId>
+				<xr:ValueId>98077329-2f01-4d66-b108-772b37690c82</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ИсполнителиЗадач" category="RecordKey">
+				<xr:TypeId>cb94417f-635f-428c-9484-02b158b210c3</xr:TypeId>
+				<xr:ValueId>5b957303-4d80-471d-b910-01a055b572f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ИсполнителиЗадач" category="RecordManager">
+				<xr:TypeId>c91a6c0e-f53e-4424-b46b-be80eeefcad7</xr:TypeId>
+				<xr:ValueId>158f38b8-4705-49ce-a22c-31c42163464c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИсполнителиЗадач</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>
