@@ -24,6 +24,7 @@
         "Veyor"
     ],
     "ignoreRegExpList": [
+        "эскалаци(я|и|ю|ей)",
         "автоподстановк(а|и|е|ой|у)",
         "AppVeyor",
         "\\.gitattributes",
