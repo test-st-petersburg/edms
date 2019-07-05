@@ -27,6 +27,43 @@
 			<Name>РолиИсполнителей</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="df15d4ad-85be-4d39-9a09-e290f96de632">
+				<Properties>
+					<Name>ИспользуетсяБезОбъектовАдресации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="eec16cf8-4429-4d21-a59e-cffbcf02d7da">
+				<Properties>
+					<Name>ИспользуетсяСОбъектамиАдресации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5d00e45e-f506-41d9-b0eb-d3558412fb01">
+				<Properties>
+					<Name>ТипыДополнительногоОбъектаАдресации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.ОбъектыАдресацииЗадач</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1106aa4d-4f0d-4876-8a65-8d1b23c09d62">
+				<Properties>
+					<Name>ТипыОсновногоОбъектаАдресации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.ОбъектыАдресацииЗадач</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
