@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="78ff3a8c-0319-4e31-8fda-883a4b717dcf">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыВнутреннихДокументов" category="Object">
+				<xr:TypeId>ee96871d-ec6c-4b40-9fde-168173b61c10</xr:TypeId>
+				<xr:ValueId>914689ed-29a5-480a-a084-10c953fd1625</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыВнутреннихДокументов" category="Ref">
+				<xr:TypeId>caa68e08-37af-4db6-af5a-1499089c2d1c</xr:TypeId>
+				<xr:ValueId>23b89bd3-8117-4f39-a065-9fd1d3c92100</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыВнутреннихДокументов" category="Selection">
+				<xr:TypeId>0f34063d-0d43-471a-a0fb-5737c4868b7d</xr:TypeId>
+				<xr:ValueId>40ee6b93-cd33-4449-a4f6-6f1252e9d4b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыВнутреннихДокументов" category="List">
+				<xr:TypeId>d2b7a2ce-c55f-4c17-8e16-f3bc035f578a</xr:TypeId>
+				<xr:ValueId>a8306de0-d05c-4c56-b01b-fd25e3c149f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыВнутреннихДокументов" category="Manager">
+				<xr:TypeId>76eb0d5c-ffe5-46a4-b5b5-901a477ae5b9</xr:TypeId>
+				<xr:ValueId>e29d8e99-c0b3-4ca1-9b5b-ee01b7765ed0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыВнутреннихДокументов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1f678aa6-f7e9-486b-8408-edeb2755edbd">
+				<Properties>
+					<Name>ВестиУчетПоОрганизациям</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

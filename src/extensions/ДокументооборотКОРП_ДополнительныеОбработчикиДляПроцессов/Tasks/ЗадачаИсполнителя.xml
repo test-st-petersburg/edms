@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Task uuid="5c29cc2a-2133-406b-9396-04abd1edb090">
+		<InternalInfo>
+			<xr:GeneratedType name="TaskObject.ЗадачаИсполнителя" category="Object">
+				<xr:TypeId>c6a1e297-13c7-4db0-a76b-89fcdc1de23a</xr:TypeId>
+				<xr:ValueId>fbddbfed-453e-45f1-92d3-1bf388825065</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="TaskRef.ЗадачаИсполнителя" category="Ref">
+				<xr:TypeId>74e56f5b-556b-4203-8604-24da94ee12bb</xr:TypeId>
+				<xr:ValueId>14079b92-2bd8-4d34-a072-6695f7a21cf5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="TaskSelection.ЗадачаИсполнителя" category="Selection">
+				<xr:TypeId>a43d19b5-1f81-4485-96e1-019c9e5c452b</xr:TypeId>
+				<xr:ValueId>87157f1e-29e8-4b0c-9e9a-5ceeac51a91e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="TaskList.ЗадачаИсполнителя" category="List">
+				<xr:TypeId>b47e7f99-7cf7-4df7-abd1-c4a729898c12</xr:TypeId>
+				<xr:ValueId>7a1a2ce3-764e-43ea-81bc-6d16f33857c5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="TaskManager.ЗадачаИсполнителя" category="Manager">
+				<xr:TypeId>0c9c54e0-8229-46b1-987a-c43c2293d2f5</xr:TypeId>
+				<xr:ValueId>e71a97e2-5f48-4ece-8b65-24789c0b6a72</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗадачаИсполнителя</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="5893782e-f827-4edb-a52f-a040f30b5dcc">
+				<Properties>
+					<Name>ТекущийИсполнитель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="08c18a8a-34bf-437f-b60b-407f87e66477">
+				<Properties>
+					<Name>СостояниеБизнесПроцесса</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияБизнесПроцессов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="b8a6d09f-e3f2-4340-be97-170b41f7b688">
+				<InternalInfo>
+					<xr:GeneratedType name="TaskTabularSection.ЗадачаИсполнителя.Предметы" category="TabularSection">
+						<xr:TypeId>960f9466-9911-45a0-bcaa-01d8a8b374ce</xr:TypeId>
+						<xr:ValueId>a0baccfa-1c94-45a8-9040-ce1f1b208cb6</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="TaskTabularSectionRow.ЗадачаИсполнителя.Предметы" category="TabularSectionRow">
+						<xr:TypeId>a302e639-5fdd-44ac-aeca-428d0a7691c6</xr:TypeId>
+						<xr:ValueId>6b325776-b88f-4560-aaa0-7faa85faadfb</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Предметы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="005fa5bb-1dc3-41e2-af90-9ad5aaf52345">
+						<Properties>
+							<Name>Предмет</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3ca40408-ab90-4200-82fe-0144992425f8">
+						<Properties>
+							<Name>РольПредмета</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:EnumRef.РолиПредметов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<AddressingAttribute uuid="e0e294cf-5670-48f6-ad93-ee1dec97686a">
+				<Properties>
+					<Name>Исполнитель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</AddressingAttribute>
+			<AddressingAttribute uuid="d74e05b8-d7da-4383-8409-11a2b04de04b">
+				<Properties>
+					<Name>РольИсполнителя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПолныеРоли</v8:Type>
+					</Type>
+				</Properties>
+			</AddressingAttribute>
+		</ChildObjects>
+	</Task>
+</MetaDataObject>

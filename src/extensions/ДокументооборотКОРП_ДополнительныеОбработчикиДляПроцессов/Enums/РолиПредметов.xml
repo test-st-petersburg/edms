@@ -1,16 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Subsystem uuid="0722e173-fd48-4510-8304-3d03a6c78bd1">
+	<Enum uuid="b89bd148-5e2a-4f08-8374-def0a5b78072">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.РолиПредметов" category="Ref">
+				<xr:TypeId>ee65c388-7183-41c0-b7c3-447d04b01933</xr:TypeId>
+				<xr:ValueId>002a38fe-5fd3-4302-8d78-301bf2bdf458</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.РолиПредметов" category="Manager">
+				<xr:TypeId>2f29a74e-0f48-4542-9201-6d79dbcd1b02</xr:TypeId>
+				<xr:ValueId>c5ebb65c-140d-4674-8f88-b84fddbd4e35</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.РолиПредметов" category="List">
+				<xr:TypeId>54f960b9-5937-4a78-afb0-9bf2e1c46cbc</xr:TypeId>
+				<xr:ValueId>60e8a437-f79c-4d52-97f2-eba26d564ce5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>СтандартныеПодсистемыДокументооборота</Name>
+			<Name>РолиПредметов</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДелопроизводствоКлиентСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИТГ_Делопроизводство</xr:Item>
-			</Content>
 		</Properties>
 		<ChildObjects>
-			<Subsystem>БизнесПроцессыИЗадачи</Subsystem>
+			<EnumValue uuid="ba6f5b6a-7949-45f8-a0e1-07a99030f9bd">
+				<Properties>
+					<Name>Основной</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
-	</Subsystem>
+	</Enum>
 </MetaDataObject>
