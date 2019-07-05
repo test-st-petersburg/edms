@@ -46,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>1.6.0</Version>
+			<Version>2.0.1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -72,11 +72,17 @@
 			<CommonModule>ДелопроизводствоКлиентСервер</CommonModule>
 			<CommonModule>ИТГ_Делопроизводство</CommonModule>
 			<CommonModule>ИТГ_Мультипредметность</CommonModule>
+			<CommonModule>ИТГ_РаботаСУсловиямиМаршрутизации</CommonModule>
 			<CommonModule>ИТГ_УправлениеСвойствами</CommonModule>
 			<CommonModule>ИТГ_ШаблоныБизнесПроцессов</CommonModule>
 			<CommonModule>Мультипредметность</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
+			<CommonModule>ОбщегоНазначенияКлиентСервер</CommonModule>
 			<CommonModule>ШаблоныБизнесПроцессовПереопределяемый</CommonModule>
+			<FunctionalOption>ВестиУчетПоОрганизациям</FunctionalOption>
+			<FunctionalOption>ИспользоватьУчетПоОрганизациям</FunctionalOption>
+			<FunctionalOptionsParameter>ВидВнутреннегоДокумента</FunctionalOptionsParameter>
+			<Constant>ИспользоватьУчетПоОрганизациям</Constant>
 			<Catalog>ВнутренниеДокументы</Catalog>
 			<Catalog>ВходящиеДокументы</Catalog>
 			<Catalog>ИсходящиеДокументы</Catalog>
@@ -85,11 +91,13 @@
 			<Catalog>РолиИсполнителей</Catalog>
 			<Catalog>ЗначенияСвойствОбъектов</Catalog>
 			<Catalog>Пользователи</Catalog>
+			<Catalog>Организации</Catalog>
+			<Catalog>ВидыВнутреннихДокументов</Catalog>
 			<Enum>СостоянияБизнесПроцессов</Enum>
 			<Enum>РолиПредметов</Enum>
 			<InformationRegister>ИсполнителиЗадач</InformationRegister>
-			<ChartOfCharacteristicTypes>ОбъектыАдресацииЗадач</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>ОбъектыАдресацииЗадач</ChartOfCharacteristicTypes>
 			<BusinessProcess>Исполнение</BusinessProcess>
 			<BusinessProcess>Ознакомление</BusinessProcess>
 			<BusinessProcess>Рассмотрение</BusinessProcess>

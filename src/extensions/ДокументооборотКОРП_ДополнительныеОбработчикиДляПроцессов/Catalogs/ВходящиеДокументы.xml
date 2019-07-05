@@ -37,6 +37,15 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="6c35ce1c-a80c-46ca-87a6-0240151bf998">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
