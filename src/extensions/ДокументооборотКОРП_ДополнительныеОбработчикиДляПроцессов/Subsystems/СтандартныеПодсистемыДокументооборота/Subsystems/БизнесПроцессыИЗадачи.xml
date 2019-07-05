@@ -5,9 +5,11 @@
 			<Name>БизнесПроцессыИЗадачи</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">c9c5d59b-66ff-4a06-be9b-9e335a075f83</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ШаблоныБизнесПроцессовПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Task.ЗадачаИсполнителя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.РолиПредметов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СостоянияБизнесПроцессов</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

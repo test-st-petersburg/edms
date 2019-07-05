@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="4e3aa993-6550-4979-ad62-08d6acbcd367">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыВходящихДокументов" category="Object">
+				<xr:TypeId>ccb2865f-beb4-461d-b5db-8c1d01346cc7</xr:TypeId>
+				<xr:ValueId>61a971bc-29fa-4ce9-b547-c4d1111f927f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыВходящихДокументов" category="Ref">
+				<xr:TypeId>3426233a-a1a0-49c5-a6c1-3485db64c827</xr:TypeId>
+				<xr:ValueId>4c2408b0-9b72-4ebb-a402-80213be38110</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыВходящихДокументов" category="Selection">
+				<xr:TypeId>48cdd9c4-0354-42e6-b881-9ecfe0a745e7</xr:TypeId>
+				<xr:ValueId>9800aea0-9db1-44da-a7a2-6984bec4bd42</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыВходящихДокументов" category="List">
+				<xr:TypeId>e586a5ce-b3d9-43d0-9569-4659a6409d2c</xr:TypeId>
+				<xr:ValueId>5904d555-e812-4241-82bf-f74e247ab608</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыВходящихДокументов" category="Manager">
+				<xr:TypeId>db898c1a-7c00-413a-a0a3-8351017f6563</xr:TypeId>
+				<xr:ValueId>9553571f-8675-48fe-8ae9-954b6f765ea2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыВходящихДокументов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>100</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="eb1f9e19-84fa-4766-a985-ac4aa71021df">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаВыбора</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

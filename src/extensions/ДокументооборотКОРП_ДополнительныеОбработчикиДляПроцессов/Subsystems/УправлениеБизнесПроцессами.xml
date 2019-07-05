@@ -7,8 +7,14 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПолныеРоли</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РолиИсполнителей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсполнителиЗадач</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Task.ЗадачаИсполнителя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.РолиПредметов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СостоянияБизнесПроцессов</xr:Item>
 			</Content>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Subsystem>Процессы</Subsystem>
+		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>
