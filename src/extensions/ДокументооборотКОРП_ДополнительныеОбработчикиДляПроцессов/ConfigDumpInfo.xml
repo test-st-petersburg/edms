@@ -51,7 +51,7 @@
 		<Metadata name="CommonModule.БизнесПроцессыИЗадачиСервер" id="666ed675-9eb9-48e0-9532-a2bcbc36a4a8" configVersion="371ff5c8e1f5499ee04abdb5cd80a6409820c8bd"/>
 		<Metadata name="CommonModule.ДелопроизводствоКлиентСервер" id="ceb95fae-94f6-4e3a-a267-ef08fd7543d1" configVersion="0e52abdabab04edfa3303d597cb155a7eec24a32"/>
 		<Metadata name="CommonModule.ИТГ_Делопроизводство" id="f61de9b0-44ee-4363-9303-720453408d7c" configVersion="bdc5803f9ec54f37a66a794ada0ea0c41eda00a1"/>
-		<Metadata name="CommonModule.ИТГ_Делопроизводство.Module" id="f61de9b0-44ee-4363-9303-720453408d7c.0" configVersion="a98114212e8c15f16f1def4fc1dd76a0a4c1b1e4"/>
+		<Metadata name="CommonModule.ИТГ_Делопроизводство.Module" id="f61de9b0-44ee-4363-9303-720453408d7c.0" configVersion="81242c93d367cc7df7afca2144ac3d59124cd09f"/>
 		<Metadata name="CommonModule.ИТГ_Мультипредметность" id="701a4ab0-4fcc-4e58-9dd7-363f825fad3a" configVersion="8d91de172626aacd32a0eeeefd4035d9b54863c2"/>
 		<Metadata name="CommonModule.ИТГ_Мультипредметность.Module" id="701a4ab0-4fcc-4e58-9dd7-363f825fad3a.0" configVersion="aa8fde6845a22b45ee8b611af8df952acb30055e"/>
 		<Metadata name="CommonModule.ИТГ_РаботаСУсловиямиМаршрутизации" id="6736fbc8-e549-4682-9bb6-1fdeed6c1135" configVersion="836ef07dea44fb29978538659f94de5127e14344"/>
@@ -59,14 +59,15 @@
 		<Metadata name="CommonModule.ИТГ_УправлениеСвойствами" id="1bbb3b75-e289-4372-83fa-748a4abda090" configVersion="5b6fc74f37d9cc19417edf39105681079c0ddaa2"/>
 		<Metadata name="CommonModule.ИТГ_УправлениеСвойствами.Module" id="1bbb3b75-e289-4372-83fa-748a4abda090.0" configVersion="217db6cd6def99f0893731071fa2bc668fe25844"/>
 		<Metadata name="CommonModule.ИТГ_ШаблоныБизнесПроцессов" id="c8ca82e3-9ecf-45ec-9eda-b8f93a27634c" configVersion="7e5ef7320e6585cd35843ff8b8c5def3512971e4"/>
-		<Metadata name="CommonModule.ИТГ_ШаблоныБизнесПроцессов.Module" id="c8ca82e3-9ecf-45ec-9eda-b8f93a27634c.0" configVersion="3405417a4265d924dfad128c9a54476833e7aef3"/>
+		<Metadata name="CommonModule.ИТГ_ШаблоныБизнесПроцессов.Module" id="c8ca82e3-9ecf-45ec-9eda-b8f93a27634c.0" configVersion="6816380fec2027f97cc6778e6267b3c51aaac9e3"/>
 		<Metadata name="CommonModule.Мультипредметность" id="60d9a0f4-33b3-46b2-bcc8-0288b2a48c4f" configVersion="7f6992f2a10f6704c42ad3d32de6168a91d6c0ce"/>
 		<Metadata name="CommonModule.Мультипредметность.Module" id="60d9a0f4-33b3-46b2-bcc8-0288b2a48c4f.0" configVersion="654d13203aa2627fc86a34136c8191fbbc3fcfe0"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="41a563c4-dd87-41b9-af71-d42885e21743" configVersion="0ea76127e61290f7bfe4b6551b04f45ff5ea14c4"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияДокументооборот" id="b8d438a5-20cc-4790-9249-ab709c276c90" configVersion="51cfe6ffe7c382036f4c61ec7b7e27661eceb3a1"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="bb1cdc72-7bb8-418b-a6d9-b8c2b2d6b833" configVersion="11c00e85e812d8d0befd8474387c054e805f6e41"/>
 		<Metadata name="CommonModule.ШаблоныБизнесПроцессовПереопределяемый" id="a529304f-d0ca-4c1b-b01c-aa2cfe2d41a4" configVersion="2bea6b821923378be91aaafaa2ae047aa55f4774"/>
 		<Metadata name="CommonModule.ШаблоныБизнесПроцессовПереопределяемый.Module" id="a529304f-d0ca-4c1b-b01c-aa2cfe2d41a4.0" configVersion="25af91374d4fe500be5105b8af6b057843877890"/>
-		<Metadata name="Configuration.ДокументооборотКОРП_ДополнительныеОбработчикиДляПроцессов" id="101d1998-6b57-4af7-9e1e-315eaf14b95c" configVersion="80bd8de2d8b1123ad80cc95189983632b7d62d32"/>
+		<Metadata name="Configuration.ДокументооборотКОРП_ДополнительныеОбработчикиДляПроцессов" id="101d1998-6b57-4af7-9e1e-315eaf14b95c" configVersion="164eb4be5250770aa1a5ab79a73d9ccdc6ff356b"/>
 		<Metadata name="Constant.ИспользоватьУчетПоОрганизациям" id="1a3a55a0-6771-4a1c-85ba-a69b42ec91b6" configVersion="aef3f845f05e313883c9631054e0ad6e8c1d3a10"/>
 		<Metadata name="DefinedType.Подразделение" id="b5b8091e-ea20-455f-8d76-d825caf2ad3e" configVersion="602e2bbfb369a838e6356cc51db6191b9b5e1dc3"/>
 		<Metadata name="Enum.РолиПредметов" id="b89bd148-5e2a-4f08-8374-def0a5b78072" configVersion="6ca2482a93d662598bfb7b19028967da60ddd59a">
