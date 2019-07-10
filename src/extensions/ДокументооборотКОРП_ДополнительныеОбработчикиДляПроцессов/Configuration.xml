@@ -46,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>2.0.1</Version>
+			<Version>2.2.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -82,6 +82,7 @@
 			<FunctionalOption>ВестиУчетПоОрганизациям</FunctionalOption>
 			<FunctionalOption>ИспользоватьУчетПоОрганизациям</FunctionalOption>
 			<FunctionalOptionsParameter>ВидВнутреннегоДокумента</FunctionalOptionsParameter>
+			<DefinedType>Подразделение</DefinedType>
 			<Constant>ИспользоватьУчетПоОрганизациям</Constant>
 			<Catalog>ВнутренниеДокументы</Catalog>
 			<Catalog>ВходящиеДокументы</Catalog>

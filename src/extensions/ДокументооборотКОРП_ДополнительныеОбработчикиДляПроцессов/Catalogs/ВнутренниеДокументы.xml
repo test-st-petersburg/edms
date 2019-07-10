@@ -28,12 +28,12 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="266dd4c9-4f65-45a7-8805-1396ab3158d2">
+			<Attribute uuid="b6945a9f-2722-4847-a38f-5b979a97e1ef">
 				<Properties>
-					<Name>Подразделение</Name>
+					<Name>Адресат</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
-						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 					</Type>
 				</Properties>
 			</Attribute>
@@ -43,6 +43,15 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="266dd4c9-4f65-45a7-8805-1396ab3158d2">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
 					</Type>
 				</Properties>
 			</Attribute>
