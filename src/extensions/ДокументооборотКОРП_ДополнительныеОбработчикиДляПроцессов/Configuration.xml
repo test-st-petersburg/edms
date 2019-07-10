@@ -46,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>2.3.0</Version>
+			<Version>2.4.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -97,6 +97,10 @@
 			<Catalog>ВидыВнутреннихДокументов</Catalog>
 			<Enum>СостоянияБизнесПроцессов</Enum>
 			<Enum>РолиПредметов</Enum>
+			<Enum>РезультатыПодписания</Enum>
+			<Enum>РезультатыУтверждения</Enum>
+			<Enum>СостоянияДокументов</Enum>
+			<Enum>ВариантыПодписания</Enum>
 			<InformationRegister>ИсполнителиЗадач</InformationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ОбъектыАдресацииЗадач</ChartOfCharacteristicTypes>
