@@ -46,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>2.4.0</Version>
+			<Version>2.5.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -69,7 +69,10 @@
 			<Subsystem>УправлениеБизнесПроцессами</Subsystem>
 			<Subsystem>СовместнаяРабота</Subsystem>
 			<CommonModule>БизнесПроцессыИЗадачиСервер</CommonModule>
+			<CommonModule>ВстроеннаяПочтаКлиентСервер</CommonModule>
+			<CommonModule>ВстроеннаяПочтаСервер</CommonModule>
 			<CommonModule>ДелопроизводствоКлиентСервер</CommonModule>
+			<CommonModule>ИТГ_БизнесСобытия</CommonModule>
 			<CommonModule>ИТГ_Делопроизводство</CommonModule>
 			<CommonModule>ИТГ_Мультипредметность</CommonModule>
 			<CommonModule>ИТГ_РаботаСУсловиямиМаршрутизации</CommonModule>
@@ -79,29 +82,42 @@
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ОбщегоНазначенияДокументооборот</CommonModule>
 			<CommonModule>ОбщегоНазначенияКлиентСервер</CommonModule>
+			<CommonModule>СвязиДокументов</CommonModule>
 			<CommonModule>ШаблоныБизнесПроцессовПереопределяемый</CommonModule>
 			<FunctionalOption>ВестиУчетПоОрганизациям</FunctionalOption>
 			<FunctionalOption>ИспользоватьУчетПоОрганизациям</FunctionalOption>
 			<FunctionalOptionsParameter>ВидВнутреннегоДокумента</FunctionalOptionsParameter>
 			<DefinedType>Подразделение</DefinedType>
+			<DefinedType>ИсточникБизнесСобытий</DefinedType>
+			<DefinedType>РегистрационныйНомер</DefinedType>
 			<Constant>ИспользоватьУчетПоОрганизациям</Constant>
+			<Catalog>ВидыБизнесСобытий</Catalog>
+			<Catalog>ВидыВнутреннихДокументов</Catalog>
 			<Catalog>ВнутренниеДокументы</Catalog>
 			<Catalog>ВходящиеДокументы</Catalog>
-			<Catalog>ИсходящиеДокументы</Catalog>
-			<Catalog>ПолныеРоли</Catalog>
-			<Catalog>СтруктураПредприятия</Catalog>
-			<Catalog>РолиИсполнителей</Catalog>
 			<Catalog>ЗначенияСвойствОбъектов</Catalog>
-			<Catalog>Пользователи</Catalog>
+			<Catalog>ИсходящиеДокументы</Catalog>
 			<Catalog>Организации</Catalog>
-			<Catalog>ВидыВнутреннихДокументов</Catalog>
+			<Catalog>ПапкиПисем</Catalog>
+			<Catalog>ПолныеРоли</Catalog>
+			<Catalog>Пользователи</Catalog>
+			<Catalog>РолиИсполнителей</Catalog>
+			<Catalog>СтруктураПредприятия</Catalog>
+			<Catalog>ТипыСвязей</Catalog>
+			<Catalog>ШаблоныТекстов</Catalog>
+			<Document>ВходящееПисьмо</Document>
+			<Document>ИсходящееПисьмо</Document>
 			<Enum>СостоянияБизнесПроцессов</Enum>
 			<Enum>РолиПредметов</Enum>
 			<Enum>РезультатыПодписания</Enum>
 			<Enum>РезультатыУтверждения</Enum>
 			<Enum>СостоянияДокументов</Enum>
 			<Enum>ВариантыПодписания</Enum>
+			<Enum>ВажностьПисем</Enum>
+			<Enum>ТипыОтвета</Enum>
+			<Enum>ТипыТекстовПочтовыхСообщений</Enum>
 			<InformationRegister>ИсполнителиЗадач</InformationRegister>
+			<InformationRegister>ПроизошедшиеБизнесСобытия</InformationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ОбъектыАдресацииЗадач</ChartOfCharacteristicTypes>
 			<BusinessProcess>Исполнение</BusinessProcess>

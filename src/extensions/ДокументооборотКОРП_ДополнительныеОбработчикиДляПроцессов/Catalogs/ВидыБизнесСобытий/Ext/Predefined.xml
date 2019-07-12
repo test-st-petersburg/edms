@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.7">
+	<Item id="84551f81-d2c4-4e6c-9a93-9d47541015cd">
+		<Name>ПеререгистрацияВходящегоДокумента</Name>
+		<Code/>
+		<Description>Перерегистрация входящего документа</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="322b5e80-2adb-465e-939b-b25f0703280d">
+		<Name>РегистрацияВходящегоДокумента</Name>
+		<Code/>
+		<Description>Регистрация входящего документа</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="16ed9168-c226-4ce6-b79c-3f64f5e27620">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ШаблоныТекстов" category="Object">
+				<xr:TypeId>3c0420a9-b0e6-4f55-b45e-de4e27422c32</xr:TypeId>
+				<xr:ValueId>00831bb3-7bf8-474b-80ed-3f2bec903835</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ШаблоныТекстов" category="Ref">
+				<xr:TypeId>20a3ecfa-a6f3-4854-87f5-719655964beb</xr:TypeId>
+				<xr:ValueId>ea5112f5-38ee-442d-8135-913119849f4e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ШаблоныТекстов" category="Selection">
+				<xr:TypeId>d43afefe-ef72-495d-b054-b4b2ee63c755</xr:TypeId>
+				<xr:ValueId>4ed627d4-252b-4d5c-bb03-bbf81a1c94a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ШаблоныТекстов" category="List">
+				<xr:TypeId>a0e4b196-08e7-4b7f-9894-9077e3ba071e</xr:TypeId>
+				<xr:ValueId>18b8741b-4d35-4069-b768-3a486a2561de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ШаблоныТекстов" category="Manager">
+				<xr:TypeId>ad16d350-8598-411d-907c-b5365242dfe9</xr:TypeId>
+				<xr:ValueId>70636261-16a1-43a2-9b80-6430c5cd904b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ШаблоныТекстов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
