@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="f760f099-914d-4af7-abfd-8ddabea5cfa1">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыПодписания" category="Ref">
+				<xr:TypeId>9972eda2-9431-4607-b3e1-9e5238166bd4</xr:TypeId>
+				<xr:ValueId>eb9a9e02-5896-4bb6-9675-c4d35f5e14fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыПодписания" category="Manager">
+				<xr:TypeId>f5396eba-4774-4e6f-b140-dc9fbff20b4c</xr:TypeId>
+				<xr:ValueId>675869aa-d3b7-48f0-aee7-2926f7f328fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыПодписания" category="List">
+				<xr:TypeId>4737bb9e-1065-4d53-ab15-5a1f9e4363ae</xr:TypeId>
+				<xr:ValueId>b4c12e0c-3a54-4e99-bad9-8e82912cae1e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВариантыПодписания</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="71e9d86d-6766-41b9-8d75-2ed6dbcb8099">
+				<Properties>
+					<Name>МыИКонтрагенты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e87ae3e2-97cd-472b-989d-22b73fcf9841">
+				<Properties>
+					<Name>НеПодписывается</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="991897aa-0b59-402c-8adf-d29ec2b62f55">
+				<Properties>
+					<Name>ТолькоКонтрагенты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b7f488c0-dda4-4367-9c08-910e8c8528c0">
+				<Properties>
+					<Name>ТолькоМы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

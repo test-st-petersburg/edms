@@ -8,6 +8,7 @@
 		</Properties>
 		<ChildObjects>
 			<Subsystem>БизнесПроцессыИЗадачи</Subsystem>
+			<Subsystem>Пользователи</Subsystem>
 			<Subsystem>Свойства</Subsystem>
 		</ChildObjects>
 	</Subsystem>

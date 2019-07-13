@@ -28,12 +28,12 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="266dd4c9-4f65-45a7-8805-1396ab3158d2">
+			<Attribute uuid="b6945a9f-2722-4847-a38f-5b979a97e1ef">
 				<Properties>
-					<Name>Подразделение</Name>
+					<Name>Адресат</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
-						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 					</Type>
 				</Properties>
 			</Attribute>
@@ -46,6 +46,96 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="008297c4-c7ec-4d27-9658-9224891c5d6b">
+				<Properties>
+					<Name>Подписал</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="266dd4c9-4f65-45a7-8805-1396ab3158d2">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7470ed31-d1b5-4471-87b2-7969c1389a28">
+				<Properties>
+					<Name>РезультатПодписания</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.РезультатыПодписания</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="ef8d6652-93ed-4751-ad2f-55216d722741">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ВнутренниеДокументы.ГрифыУтверждения" category="TabularSection">
+						<xr:TypeId>1a8b26d6-d6f6-424f-a249-cf9a4edbc758</xr:TypeId>
+						<xr:ValueId>6d8ad911-c2aa-4a00-bc67-de07b0138fb1</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ВнутренниеДокументы.ГрифыУтверждения" category="TabularSectionRow">
+						<xr:TypeId>487993b1-52f1-45e4-8af2-a8b64e835cff</xr:TypeId>
+						<xr:ValueId>823356ee-165b-4579-9106-d04c2390adfa</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ГрифыУтверждения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="8bddf244-04d2-4c71-9879-82a2cd4adc1d">
+						<Properties>
+							<Name>Результат</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:EnumRef.РезультатыУтверждения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="2fa15420-b353-4c61-aca9-574ef8289175">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ВнутренниеДокументы.Стороны" category="TabularSection">
+						<xr:TypeId>b9811543-f169-499c-b4e6-da50cdeb8a06</xr:TypeId>
+						<xr:ValueId>b3c73daf-59f2-469c-80b8-fa48421279a5</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ВнутренниеДокументы.Стороны" category="TabularSectionRow">
+						<xr:TypeId>55126218-fae3-4caa-9878-401641d3c1ac</xr:TypeId>
+						<xr:ValueId>fd20b916-cff3-4344-95a7-aba2f2b6f8f4</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Стороны</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="28ff0869-ca88-46a4-b09e-16a4cc9d383e">
+						<Properties>
+							<Name>Сторона</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1c9371c9-c922-47e1-acc4-6244d7ca8fee">
+						<Properties>
+							<Name>Подписан</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

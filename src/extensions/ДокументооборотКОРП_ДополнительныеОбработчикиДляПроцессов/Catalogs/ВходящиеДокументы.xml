@@ -28,12 +28,40 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="9f3850b2-6129-4ff9-9075-83ef71b8652c">
+			<Attribute uuid="a38b1c7c-7919-4b74-8097-208ffbe9092d">
 				<Properties>
-					<Name>Подразделение</Name>
+					<Name>ДатаРегистрации</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
-						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4b373643-e7c3-4b4d-87f3-0ecdbf3a69fd">
+				<Properties>
+					<Name>ИсходящаяДата</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="334a383f-3f15-4cc0-8404-37b1c7e9e496">
+				<Properties>
+					<Name>ИсходящийНомер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 				</Properties>
 			</Attribute>
@@ -43,6 +71,24 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9f3850b2-6129-4ff9-9075-83ef71b8652c">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ba762164-8bcc-49bc-a824-7e5d1ecf901c">
+				<Properties>
+					<Name>РегистрационныйНомер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.РегистрационныйНомер</v8:TypeSet>
 					</Type>
 				</Properties>
 			</Attribute>

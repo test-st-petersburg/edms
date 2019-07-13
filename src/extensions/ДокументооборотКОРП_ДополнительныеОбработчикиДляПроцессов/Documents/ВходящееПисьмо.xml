@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="e7fee12e-a882-4912-9cfd-d5cab0c8a371">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВходящееПисьмо" category="Object">
+				<xr:TypeId>4a6c8ebb-8a56-4178-89cd-391d753475d7</xr:TypeId>
+				<xr:ValueId>341f2d45-9ce8-45c1-b75c-ba6bec246ec6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВходящееПисьмо" category="Ref">
+				<xr:TypeId>fdf6334b-8265-4e24-bc05-2ba214beb43a</xr:TypeId>
+				<xr:ValueId>cba5bd60-c27b-4bd0-a20e-a45a69afd6a6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВходящееПисьмо" category="Selection">
+				<xr:TypeId>fb1e6b43-72e3-4ec8-af33-6475d65fabd8</xr:TypeId>
+				<xr:ValueId>f6bb46c3-7f49-42ef-8f86-96f1f022b41e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВходящееПисьмо" category="List">
+				<xr:TypeId>36edcff5-f83e-4bd1-a0f2-92c91dda00a3</xr:TypeId>
+				<xr:ValueId>05cd3fff-3eaf-4412-9856-4311ff37699c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВходящееПисьмо" category="Manager">
+				<xr:TypeId>a9e2d02e-4c93-4381-abc8-45a7d76af093</xr:TypeId>
+				<xr:ValueId>4b0fa0b3-167c-40de-a3a6-9c2dc86a93fb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВходящееПисьмо</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a8318ae8-17f0-4f47-907e-8993fa929785">
+				<Properties>
+					<Name>Папка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПапкиПисем</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

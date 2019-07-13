@@ -1,17 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Subsystem uuid="0722e173-fd48-4510-8304-3d03a6c78bd1">
+	<Enum uuid="93bb145c-d437-4d37-a0fa-c6716985ec8c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВажностьПисем" category="Ref">
+				<xr:TypeId>774c5069-7f03-4ed3-9391-a1f04a1ad486</xr:TypeId>
+				<xr:ValueId>0649b029-4efa-454c-98f1-6175747c6292</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВажностьПисем" category="Manager">
+				<xr:TypeId>65da1fb4-67d8-40ee-915d-1f1ad3bbc9dd</xr:TypeId>
+				<xr:ValueId>8757fb5a-2d6b-4abe-966f-93d13c7a965b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВажностьПисем" category="List">
+				<xr:TypeId>fcf1b3bb-91bb-40f4-9668-23b44b4f85cd</xr:TypeId>
+				<xr:ValueId>4c25b702-310c-4a29-b321-a3efbd2c0a65</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>СтандартныеПодсистемыДокументооборота</Name>
+			<Name>ВажностьПисем</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДелопроизводствоКлиентСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИТГ_Делопроизводство</xr:Item>
-			</Content>
 		</Properties>
-		<ChildObjects>
-			<Subsystem>БизнесПроцессыИЗадачи</Subsystem>
-			<Subsystem>ВстроеннаяПочта</Subsystem>
-		</ChildObjects>
-	</Subsystem>
+		<ChildObjects/>
+	</Enum>
 </MetaDataObject>

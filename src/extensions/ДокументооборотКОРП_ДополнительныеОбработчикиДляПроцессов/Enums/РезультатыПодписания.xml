@@ -1,17 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Subsystem uuid="0722e173-fd48-4510-8304-3d03a6c78bd1">
+	<Enum uuid="2b1791d9-e919-4707-82bd-e518bc324aec">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.РезультатыПодписания" category="Ref">
+				<xr:TypeId>681fa030-6bff-4f0b-bc24-608782db4411</xr:TypeId>
+				<xr:ValueId>6a6030d2-3651-4f83-83d9-5700fe21a947</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.РезультатыПодписания" category="Manager">
+				<xr:TypeId>2a34f51c-ceac-4882-b1bb-bead5609b337</xr:TypeId>
+				<xr:ValueId>219e3fdb-ec15-4361-80f8-4f2e0bd522cf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.РезультатыПодписания" category="List">
+				<xr:TypeId>9d7b62eb-2d49-41e0-833b-704cc802b5f8</xr:TypeId>
+				<xr:ValueId>67aa30e2-d359-4ddf-a65f-e48c6c2c32a9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>СтандартныеПодсистемыДокументооборота</Name>
+			<Name>РезультатыПодписания</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДелопроизводствоКлиентСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИТГ_Делопроизводство</xr:Item>
-			</Content>
 		</Properties>
-		<ChildObjects>
-			<Subsystem>БизнесПроцессыИЗадачи</Subsystem>
-			<Subsystem>ВстроеннаяПочта</Subsystem>
-		</ChildObjects>
-	</Subsystem>
+		<ChildObjects/>
+	</Enum>
 </MetaDataObject>

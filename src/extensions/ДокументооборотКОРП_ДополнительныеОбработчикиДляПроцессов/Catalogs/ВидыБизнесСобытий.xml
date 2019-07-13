@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="4d6de24f-41bc-4acd-bdc8-a43ea18efc11">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыБизнесСобытий" category="Object">
+				<xr:TypeId>99243db2-b699-4330-8a81-7ce7ddcdcda4</xr:TypeId>
+				<xr:ValueId>3f89e935-6076-45ba-b14e-51a2ff5faccb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыБизнесСобытий" category="Ref">
+				<xr:TypeId>12e52718-0ce2-44d8-9356-ee90c1f7a3d7</xr:TypeId>
+				<xr:ValueId>dc89a012-2ddc-4db0-9812-908473cf6dee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыБизнесСобытий" category="Selection">
+				<xr:TypeId>1bbe5796-19fe-464e-8557-55bb1ef8c3e0</xr:TypeId>
+				<xr:ValueId>5e07568a-d55a-473b-8c2a-ebdce75e8f1b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыБизнесСобытий" category="List">
+				<xr:TypeId>ee29c6ea-afb6-48d3-bf07-9f8788c35911</xr:TypeId>
+				<xr:ValueId>558dbc4b-2e93-4e81-b048-3e41faf942e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыБизнесСобытий" category="Manager">
+				<xr:TypeId>2bbe0635-3ab6-4411-a5c4-e599b30f4a43</xr:TypeId>
+				<xr:ValueId>d54334f2-b3f1-492f-acac-167a51b8525d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыБизнесСобытий</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>0</CodeLength>
+			<DescriptionLength>80</DescriptionLength>
+			<CodeType>String</CodeType>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -46,6 +46,19 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="fbdf5d72-ae26-492c-8c11-440ed5bfd5c4">
+				<Properties>
+					<Name>КраткоеПредставление</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>9</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Attribute uuid="5d00e45e-f506-41d9-b0eb-d3558412fb01">
 				<Properties>
 					<Name>ТипыДополнительногоОбъектаАдресации</Name>

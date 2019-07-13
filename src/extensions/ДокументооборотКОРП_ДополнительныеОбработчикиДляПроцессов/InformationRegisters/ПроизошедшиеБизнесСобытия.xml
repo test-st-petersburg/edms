@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="f83f2519-2f0b-42b6-9ba9-a5607eb11be5">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ПроизошедшиеБизнесСобытия" category="Record">
+				<xr:TypeId>9cdb26ce-95fd-4a81-a86f-21f2180bf9d1</xr:TypeId>
+				<xr:ValueId>ec02bd30-d3d3-4bc2-a30d-6e4ea66bfbc7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ПроизошедшиеБизнесСобытия" category="Manager">
+				<xr:TypeId>db5fa60f-6361-41f1-a8ef-1f0011b20f84</xr:TypeId>
+				<xr:ValueId>5dcf70da-a786-49d5-8ea5-809496f933bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ПроизошедшиеБизнесСобытия" category="Selection">
+				<xr:TypeId>10553c9e-41b2-4fd6-a000-5b3e29b97e7b</xr:TypeId>
+				<xr:ValueId>219c7f1f-1baf-4bd1-87e5-9ec68277eca1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ПроизошедшиеБизнесСобытия" category="List">
+				<xr:TypeId>082fc421-d6ad-47e8-bc33-64e4d204b9ae</xr:TypeId>
+				<xr:ValueId>479990e3-7947-4908-b90a-4f2b74ba579a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ПроизошедшиеБизнесСобытия" category="RecordSet">
+				<xr:TypeId>f73138d8-a2ca-4509-a12a-c8b439b36cfc</xr:TypeId>
+				<xr:ValueId>7a0891d2-2ccd-4099-9bc8-1ccafa1fa894</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ПроизошедшиеБизнесСобытия" category="RecordKey">
+				<xr:TypeId>2d2f2eaf-91e4-416d-8e20-d569d66c5609</xr:TypeId>
+				<xr:ValueId>42f3a0a6-865e-463c-be08-e64a7f459a38</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ПроизошедшиеБизнесСобытия" category="RecordManager">
+				<xr:TypeId>7b78d210-1bf1-41d3-b9b8-4af94d4a83e3</xr:TypeId>
+				<xr:ValueId>cf9ee56b-4b9c-4573-a56d-afe6ab2575f3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПроизошедшиеБизнесСобытия</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="4ada71e1-2766-4acb-9151-46726b4b29b0">
+				<Properties>
+					<Name>ВидСобытия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыБизнесСобытий</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="1f48f9fb-c78b-4094-a278-bb033765bc77">
+				<Properties>
+					<Name>Автор</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="f99aded2-7db2-434f-b2ee-eb988a35dc37">
+				<Properties>
+					<Name>Источник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ИсточникБизнесСобытий</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="db7e3609-6356-40b6-8af7-c05327dce181">
+				<Properties>
+					<Name>Обработано</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="f5eceff6-b5bb-4a6f-a2c3-76ed77bac3ee">
+				<Properties>
+					<Name>Идентификатор</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>v8:UUID</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>
