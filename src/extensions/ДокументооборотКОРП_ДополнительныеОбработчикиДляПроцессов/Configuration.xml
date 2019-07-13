@@ -46,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>2.5.0</Version>
+			<Version>2.5.1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -107,13 +107,14 @@
 			<Catalog>ШаблоныТекстов</Catalog>
 			<Document>ВходящееПисьмо</Document>
 			<Document>ИсходящееПисьмо</Document>
-			<Enum>СостоянияБизнесПроцессов</Enum>
-			<Enum>РолиПредметов</Enum>
+			<Enum>ВажностьПисем</Enum>
+			<Enum>ВариантыПодписания</Enum>
+			<Enum>ОбластиПримененияШаблоновТекстов</Enum>
 			<Enum>РезультатыПодписания</Enum>
 			<Enum>РезультатыУтверждения</Enum>
+			<Enum>РолиПредметов</Enum>
+			<Enum>СостоянияБизнесПроцессов</Enum>
 			<Enum>СостоянияДокументов</Enum>
-			<Enum>ВариантыПодписания</Enum>
-			<Enum>ВажностьПисем</Enum>
 			<Enum>ТипыОтвета</Enum>
 			<Enum>ТипыТекстовПочтовыхСообщений</Enum>
 			<InformationRegister>ИсполнителиЗадач</InformationRegister>

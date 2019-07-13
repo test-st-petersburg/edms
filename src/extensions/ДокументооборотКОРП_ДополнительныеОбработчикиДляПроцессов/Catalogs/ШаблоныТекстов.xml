@@ -27,6 +27,56 @@
 			<Name>ШаблоныТекстов</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="7208bdbe-88e0-4acc-aaae-1b5f9e95339c">
+				<Properties>
+					<Name>Шаблон</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="39e1f342-513c-4ede-a5d9-b8198235c96b">
+				<Properties>
+					<Name>Автор</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2b8662fe-f078-46f0-b92e-3af8bc6ff2e4">
+				<Properties>
+					<Name>ОбщийШаблон</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a3a9fc15-2163-41de-9e5b-170389af5a3a">
+				<Properties>
+					<Name>ОбластьПрименения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ОбластиПримененияШаблоновТекстов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="23b02d83-303f-42c9-ae81-cc4eb2b1fe12">
+				<Properties>
+					<Name>ТипТекста</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыТекстовПочтовыхСообщений</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
