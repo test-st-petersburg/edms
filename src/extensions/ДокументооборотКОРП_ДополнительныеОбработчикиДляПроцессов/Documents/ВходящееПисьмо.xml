@@ -29,6 +29,15 @@
 			<RegisterRecords/>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="54a18f13-69ae-4b6f-815a-b3598cb9e559">
+				<Properties>
+					<Name>ОтправительАдресат</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.АдресатыПочтовыхСообщений</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Attribute uuid="a8318ae8-17f0-4f47-907e-8993fa929785">
 				<Properties>
 					<Name>Папка</Name>

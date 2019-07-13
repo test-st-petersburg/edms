@@ -46,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>2.5.2</Version>
+			<Version>2.6.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -73,9 +73,11 @@
 			<CommonModule>ВстроеннаяПочтаСервер</CommonModule>
 			<CommonModule>ДелопроизводствоКлиентСервер</CommonModule>
 			<CommonModule>ИТГ_БизнесСобытия</CommonModule>
+			<CommonModule>ИТГ_БизнесСобытияПереопределяемый</CommonModule>
 			<CommonModule>ИТГ_Делопроизводство</CommonModule>
 			<CommonModule>ИТГ_Мультипредметность</CommonModule>
 			<CommonModule>ИТГ_РаботаСУсловиямиМаршрутизации</CommonModule>
+			<CommonModule>ИТГ_СтроковыеФункцииКлиентСервер</CommonModule>
 			<CommonModule>ИТГ_УправлениеСвойствами</CommonModule>
 			<CommonModule>ИТГ_ШаблоныБизнесПроцессов</CommonModule>
 			<CommonModule>Мультипредметность</CommonModule>
@@ -91,6 +93,7 @@
 			<DefinedType>ИсточникБизнесСобытий</DefinedType>
 			<DefinedType>РегистрационныйНомер</DefinedType>
 			<Constant>ИспользоватьУчетПоОрганизациям</Constant>
+			<Catalog>АдресатыПочтовыхСообщений</Catalog>
 			<Catalog>ВидыБизнесСобытий</Catalog>
 			<Catalog>ВидыВнутреннихДокументов</Catalog>
 			<Catalog>ВнутренниеДокументы</Catalog>
