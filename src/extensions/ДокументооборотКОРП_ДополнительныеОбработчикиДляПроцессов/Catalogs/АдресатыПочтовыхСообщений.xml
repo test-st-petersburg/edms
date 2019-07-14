@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="9f945c48-4cbe-4237-8c08-09c91806913c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.АдресатыПочтовыхСообщений" category="Object">
+				<xr:TypeId>c3a95759-d5d0-42dd-81a0-0ff7d85a8613</xr:TypeId>
+				<xr:ValueId>d0160155-d690-4af2-9ba2-c1d79c929e1b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.АдресатыПочтовыхСообщений" category="Ref">
+				<xr:TypeId>b54bf3d5-a1f4-4bf2-bbeb-4e405a966596</xr:TypeId>
+				<xr:ValueId>83b87cab-4bff-43b3-a02f-d0fae2b3380d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.АдресатыПочтовыхСообщений" category="Selection">
+				<xr:TypeId>52a74dce-205e-48e3-bc7d-44ecc04293fb</xr:TypeId>
+				<xr:ValueId>e89455b7-0edd-41db-b2a9-c52b82fe0e16</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.АдресатыПочтовыхСообщений" category="List">
+				<xr:TypeId>ce2fea76-9f32-42da-961e-e0846e198584</xr:TypeId>
+				<xr:ValueId>4421377a-ee44-4534-8c09-c9254bf5a2a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.АдресатыПочтовыхСообщений" category="Manager">
+				<xr:TypeId>554c143e-d677-496e-a053-8beab4ff9790</xr:TypeId>
+				<xr:ValueId>da092e13-faf5-4d49-bf30-edc4ba59f937</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АдресатыПочтовыхСообщений</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="fedcf803-a740-4b47-828f-d1e696b39959">
+				<Properties>
+					<Name>Адрес</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

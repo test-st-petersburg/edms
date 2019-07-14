@@ -38,6 +38,19 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="da34954f-3073-4657-810b-168e1e8837a8">
+				<Properties>
+					<Name>ИдентификаторСообщения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Attribute uuid="8b600ea8-f30e-415f-be38-17f82d556029">
 				<Properties>
 					<Name>Папка</Name>
