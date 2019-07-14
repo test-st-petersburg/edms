@@ -12,4 +12,10 @@
 		<Description>Регистрация входящего документа</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="753ea5a4-6d7d-440e-b5fa-1a9fc018aff6">
+		<Name>ИзменениеВнутреннегоДокумента</Name>
+		<Code/>
+		<Description>Изменение внутреннего документа</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>
