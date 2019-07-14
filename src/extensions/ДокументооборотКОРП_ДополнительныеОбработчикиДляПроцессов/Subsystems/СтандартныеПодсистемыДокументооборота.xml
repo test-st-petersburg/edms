@@ -7,6 +7,7 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДелопроизводствоКлиентСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИТГ_Делопроизводство</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСПодписямиДокументов</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

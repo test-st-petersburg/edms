@@ -12,6 +12,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПапкиПисем</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АдресатыПочтовыхСообщений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИТГ_ВстроеннаяПочтаСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ИспользованиеВстроеннойПочты</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

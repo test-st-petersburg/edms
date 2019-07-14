@@ -38,21 +38,21 @@
 			<WriteMode>Independent</WriteMode>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="4ada71e1-2766-4acb-9151-46726b4b29b0">
-				<Properties>
-					<Name>ВидСобытия</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>cfg:CatalogRef.ВидыБизнесСобытий</v8:Type>
-					</Type>
-				</Properties>
-			</Resource>
 			<Resource uuid="1f48f9fb-c78b-4094-a278-bb033765bc77">
 				<Properties>
 					<Name>Автор</Name>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="4ada71e1-2766-4acb-9151-46726b4b29b0">
+				<Properties>
+					<Name>ВидСобытия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыБизнесСобытий</v8:Type>
 					</Type>
 				</Properties>
 			</Resource>
