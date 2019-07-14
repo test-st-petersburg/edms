@@ -96,7 +96,7 @@
 		<Metadata name="CommonModule.ИТГ_Мультипредметность" id="701a4ab0-4fcc-4e58-9dd7-363f825fad3a" configVersion="8d91de172626aacd32a0eeeefd4035d9b54863c2"/>
 		<Metadata name="CommonModule.ИТГ_Мультипредметность.Module" id="701a4ab0-4fcc-4e58-9dd7-363f825fad3a.0" configVersion="aa8fde6845a22b45ee8b611af8df952acb30055e"/>
 		<Metadata name="CommonModule.ИТГ_РаботаСПодписямиДокументов" id="79f2e6ad-7a34-4f5d-8084-0f2d1a08349c" configVersion="4597504d7ae6bea7f75f47d7d04d6db902ff76b3"/>
-		<Metadata name="CommonModule.ИТГ_РаботаСПодписямиДокументов.Module" id="79f2e6ad-7a34-4f5d-8084-0f2d1a08349c.0" configVersion="793629041c8f03c19742bc5305ad7456eadc67ce"/>
+		<Metadata name="CommonModule.ИТГ_РаботаСПодписямиДокументов.Module" id="79f2e6ad-7a34-4f5d-8084-0f2d1a08349c.0" configVersion="d631313b1935a35d61cffb6a37da6dd6e2eb4904"/>
 		<Metadata name="CommonModule.ИТГ_РаботаСУсловиямиМаршрутизации" id="6736fbc8-e549-4682-9bb6-1fdeed6c1135" configVersion="836ef07dea44fb29978538659f94de5127e14344"/>
 		<Metadata name="CommonModule.ИТГ_РаботаСУсловиямиМаршрутизации.Module" id="6736fbc8-e549-4682-9bb6-1fdeed6c1135.0" configVersion="abdfad8db18eb969bc54b022dd7ce55a3abf4073"/>
 		<Metadata name="CommonModule.ИТГ_СтроковыеФункцииКлиентСервер" id="8b673ba6-38df-4b12-a016-165dd5f54e6f" configVersion="6993859f59d78d17e07d1353c1167ad5e7d572a3"/>
