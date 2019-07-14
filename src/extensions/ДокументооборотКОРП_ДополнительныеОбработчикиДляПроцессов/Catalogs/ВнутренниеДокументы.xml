@@ -37,6 +37,18 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="07608de5-cd0c-4b91-aadc-8a9ab72f9aad">
+				<Properties>
+					<Name>ДатаРегистрации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Attribute uuid="d97c7f72-04ae-4d88-86ac-f4aa19b3550b">
 				<Properties>
 					<Name>Организация</Name>
@@ -116,12 +128,15 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="28ff0869-ca88-46a4-b09e-16a4cc9d383e">
+					<Attribute uuid="ec32dc30-e5c0-4840-859c-8bdc0b5af292">
 						<Properties>
-							<Name>Сторона</Name>
+							<Name>ДатаПодписи</Name>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
-								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
 							</Type>
 						</Properties>
 					</Attribute>
@@ -131,6 +146,15 @@
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="28ff0869-ca88-46a4-b09e-16a4cc9d383e">
+						<Properties>
+							<Name>Сторона</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 							</Type>
 						</Properties>
 					</Attribute>
