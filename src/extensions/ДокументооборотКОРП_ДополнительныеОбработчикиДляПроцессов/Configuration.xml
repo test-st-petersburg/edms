@@ -46,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>2.6.1</Version>
+			<Version>2.6.2</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -88,6 +88,7 @@
 			<CommonModule>СвязиДокументов</CommonModule>
 			<CommonModule>ШаблоныБизнесПроцессовПереопределяемый</CommonModule>
 			<FunctionalOption>ВестиУчетПоОрганизациям</FunctionalOption>
+			<FunctionalOption>ИспользованиеВстроеннойПочты</FunctionalOption>
 			<FunctionalOption>ИспользоватьУчетПоОрганизациям</FunctionalOption>
 			<FunctionalOptionsParameter>ВидВнутреннегоДокумента</FunctionalOptionsParameter>
 			<DefinedType>Подразделение</DefinedType>
@@ -123,6 +124,7 @@
 			<Enum>ТипыТекстовПочтовыхСообщений</Enum>
 			<InformationRegister>ИсполнителиЗадач</InformationRegister>
 			<InformationRegister>ПроизошедшиеБизнесСобытия</InformationRegister>
+			<InformationRegister>ИспользованиеПочты</InformationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ОбъектыАдресацииЗадач</ChartOfCharacteristicTypes>
 			<BusinessProcess>Исполнение</BusinessProcess>
