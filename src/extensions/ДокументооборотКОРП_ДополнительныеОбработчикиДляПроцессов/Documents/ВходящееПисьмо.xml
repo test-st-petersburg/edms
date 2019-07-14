@@ -29,6 +29,32 @@
 			<RegisterRecords/>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="5a1970b5-1ba0-43a3-bdc1-1560a63cfe62">
+				<Properties>
+					<Name>ВнутреннийЗаголовок</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5829d1ef-5919-49da-a0f1-628ce8c94821">
+				<Properties>
+					<Name>ИдентификаторСообщения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Attribute uuid="54a18f13-69ae-4b6f-815a-b3598cb9e559">
 				<Properties>
 					<Name>ОтправительАдресат</Name>
