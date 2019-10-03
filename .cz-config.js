@@ -81,6 +81,6 @@ module.exports = {
 
   allowCustomScopes: false,
   allowBreakingChanges: ['feat', 'fix'],
-  footerPrefix: "МЕТАДАННЫЕ:",
+  footerPrefix: "",
   subjectLimit: 72
 };

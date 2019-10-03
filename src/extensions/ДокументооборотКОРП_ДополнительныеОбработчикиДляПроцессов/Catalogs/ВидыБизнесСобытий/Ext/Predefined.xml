@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.7">
+	<Item id="753ea5a4-6d7d-440e-b5fa-1a9fc018aff6">
+		<Name>ИзменениеВнутреннегоДокумента</Name>
+		<Code/>
+		<Description>Изменение внутреннего документа</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="84551f81-d2c4-4e6c-9a93-9d47541015cd">
 		<Name>ПеререгистрацияВходящегоДокумента</Name>
 		<Code/>
@@ -12,10 +18,16 @@
 		<Description>Регистрация входящего документа</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
-	<Item id="753ea5a4-6d7d-440e-b5fa-1a9fc018aff6">
-		<Name>ИзменениеВнутреннегоДокумента</Name>
+	<Item id="96c6d163-d28f-4123-88fc-b2cb08fb7714">
+		<Name>ИзменениеВходящегоДокумента</Name>
 		<Code/>
-		<Description>Изменение внутреннего документа</Description>
+		<Description>Изменение входящего документа</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4520a0dc-a310-42be-8d10-14e1f37446df">
+		<Name>ИзменениеИсходящегоДокумента</Name>
+		<Code/>
+		<Description>Изменение исходящего документа</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 </PredefinedData>
