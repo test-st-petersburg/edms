@@ -70,7 +70,7 @@
 			<Metadata name="Catalog.РолиИсполнителей.Attribute.ИспользуетсяСОбъектамиАдресации" id="eec16cf8-4429-4d21-a59e-cffbcf02d7da"/>
 			<Metadata name="Catalog.РолиИсполнителей.Attribute.КраткоеПредставление" id="fbdf5d72-ae26-492c-8c11-440ed5bfd5c4"/>
 		</Metadata>
-		<Metadata name="Catalog.РолиИсполнителей.ManagerModule" id="52a53583-817b-4288-8658-66b1d6be3266.3" configVersion="cc5fe53199a84a3f1ab1fccd6f87f64c71b6bc0b"/>
+		<Metadata name="Catalog.РолиИсполнителей.ManagerModule" id="52a53583-817b-4288-8658-66b1d6be3266.3" configVersion="0442fb1c19eed3553446ed6e1a011f58373e0a49"/>
 		<Metadata name="Catalog.СтруктураПредприятия" id="12233006-56a6-478c-a5e5-a37825a49524" configVersion="d2c3ba3789d99437fd16b182c24ac708d568b3e4">
 			<Metadata name="Catalog.СтруктураПредприятия.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство" id="283a7dd0-6d39-4510-b66b-a584c487b797"/>
 			<Metadata name="Catalog.СтруктураПредприятия.TabularSection.ДополнительныеРеквизиты.Attribute.ТекстоваяСтрока" id="326a5a5c-12f7-4f43-ba17-7e9a67e1ec6a"/>
@@ -122,7 +122,7 @@
 		<Metadata name="CommonModule.ИТГ_УправлениеСвойствами" id="1bbb3b75-e289-4372-83fa-748a4abda090" configVersion="5b6fc74f37d9cc19417edf39105681079c0ddaa2"/>
 		<Metadata name="CommonModule.ИТГ_УправлениеСвойствами.Module" id="1bbb3b75-e289-4372-83fa-748a4abda090.0" configVersion="217db6cd6def99f0893731071fa2bc668fe25844"/>
 		<Metadata name="CommonModule.ИТГ_ШаблоныБизнесПроцессов" id="c8ca82e3-9ecf-45ec-9eda-b8f93a27634c" configVersion="7e5ef7320e6585cd35843ff8b8c5def3512971e4"/>
-		<Metadata name="CommonModule.ИТГ_ШаблоныБизнесПроцессов.Module" id="c8ca82e3-9ecf-45ec-9eda-b8f93a27634c.0" configVersion="49a2101793995b4446c333c2267aad9ce8daee96"/>
+		<Metadata name="CommonModule.ИТГ_ШаблоныБизнесПроцессов.Module" id="c8ca82e3-9ecf-45ec-9eda-b8f93a27634c.0" configVersion="8793a344d115c0a077815ade6cc0dea28ef19b86"/>
 		<Metadata name="CommonModule.Мультипредметность" id="60d9a0f4-33b3-46b2-bcc8-0288b2a48c4f" configVersion="7f6992f2a10f6704c42ad3d32de6168a91d6c0ce"/>
 		<Metadata name="CommonModule.Мультипредметность.Module" id="60d9a0f4-33b3-46b2-bcc8-0288b2a48c4f.0" configVersion="654d13203aa2627fc86a34136c8191fbbc3fcfe0"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="41a563c4-dd87-41b9-af71-d42885e21743" configVersion="0ea76127e61290f7bfe4b6551b04f45ff5ea14c4"/>
