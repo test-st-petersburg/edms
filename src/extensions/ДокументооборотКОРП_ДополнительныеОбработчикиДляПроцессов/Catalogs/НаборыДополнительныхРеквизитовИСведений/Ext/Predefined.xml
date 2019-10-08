@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.7">
+	<Item id="5d38befe-bf5e-4e33-8841-439ca1e19f3b">
+		<Name>Справочник_СтруктураПредприятия</Name>
+		<Code/>
+		<Description>Доп. свойства справочника "Структура предприятия"</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8c91fbda-03ff-42c7-984f-9fe656ed8102">
+		<Name>Справочник_ВнутренниеДокументы</Name>
+		<Code/>
+		<Description>Доп. свойства справочника "Внутренние документы"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="fd9c0490-58b5-4a6c-af4d-fa8a2616599f">
+				<Name>Справочник_ВнутренниеДокументы_Общие</Name>
+				<Code/>
+				<Description>Доп. свойства справочника "Внутренние документы" (общие)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="4c9bbc53-6aeb-41ec-87fb-4139097b2a44">
+		<Name>Справочник_ВходящиеДокументы</Name>
+		<Code/>
+		<Description>Доп. свойства справочника "Входящие документы"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="52368d74-1aa4-486e-a67d-9d755fe94def">
+				<Name>Справочник_ВходящиеДокументы_Общие</Name>
+				<Code/>
+				<Description>Доп. свойства справочника "Входящие документы" (общие)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="8bde2849-d4d1-4a28-af89-41c26f7d8585">
+		<Name>Справочник_ИсходящиеДокументы</Name>
+		<Code/>
+		<Description>Доп. свойства справочника "Исходящие документы"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="53615c3d-5766-4319-b48a-189b17a77e49">
+				<Name>Справочник_ИсходящиеДокументы_Общие</Name>
+				<Code/>
+				<Description>Доп. свойства справочника "Исходящие документы" (общие)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

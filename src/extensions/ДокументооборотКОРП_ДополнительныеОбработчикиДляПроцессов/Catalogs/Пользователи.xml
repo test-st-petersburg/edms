@@ -28,6 +28,15 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="a3554787-d78b-4079-8054-7b36c92c4bce">
+				<Properties>
+					<Name>Недействителен</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Attribute uuid="16a2a3f0-1690-4221-a7d4-cb4a65609f71">
 				<Properties>
 					<Name>Подразделение</Name>

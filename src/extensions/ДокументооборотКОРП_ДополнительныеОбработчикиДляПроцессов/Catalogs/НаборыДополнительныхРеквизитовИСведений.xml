@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="8f073a0c-b880-46d3-b2b9-eb95a26eeece">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НаборыДополнительныхРеквизитовИСведений" category="Object">
+				<xr:TypeId>bf62b945-3750-405d-9d2d-41a859932ea5</xr:TypeId>
+				<xr:ValueId>25b03be7-2ae4-467e-a905-089b71d3e02c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НаборыДополнительныхРеквизитовИСведений" category="Ref">
+				<xr:TypeId>702bc532-0f33-4a36-a63c-63f7477626ee</xr:TypeId>
+				<xr:ValueId>63177128-750e-4414-a3c5-191598bca418</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НаборыДополнительныхРеквизитовИСведений" category="Selection">
+				<xr:TypeId>0341c4c5-87ef-44de-9c66-dae666b91084</xr:TypeId>
+				<xr:ValueId>eb5dec03-d9a3-45ac-bec2-0e5c24a1a938</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НаборыДополнительныхРеквизитовИСведений" category="List">
+				<xr:TypeId>3fb7fca3-8692-4375-8636-01d2e8f574be</xr:TypeId>
+				<xr:ValueId>128c8ee9-3ca4-46f2-8a8f-6de9681fe95c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НаборыДополнительныхРеквизитовИСведений" category="Manager">
+				<xr:TypeId>d3f9e252-d942-4fc9-8ae0-933e8b3d92cf</xr:TypeId>
+				<xr:ValueId>c0870fe7-57b0-4dd9-b7d9-03843fc5b16e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НаборыДополнительныхРеквизитовИСведений</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>0</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<CodeType>String</CodeType>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="447d1d7d-1446-43b0-b1cf-ac7ec39ef0c6">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.НаборыДополнительныхРеквизитовИСведений.ДополнительныеРеквизиты" category="TabularSection">
+						<xr:TypeId>1c7ad9ba-8f11-478b-b6ad-da350cdbb689</xr:TypeId>
+						<xr:ValueId>20ce509a-27bb-4cfb-b8b8-3ff28d1e7dd2</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.НаборыДополнительныхРеквизитовИСведений.ДополнительныеРеквизиты" category="TabularSectionRow">
+						<xr:TypeId>89f377cd-eb16-4107-a5f2-d4fdc735244c</xr:TypeId>
+						<xr:ValueId>89f15f7a-d0a8-4eed-811b-11a4bc39d04c</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ДополнительныеРеквизиты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="13ef56fe-d6bc-487b-be83-9bae73ac45ec">
+						<Properties>
+							<Name>Свойство</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9decf430-8590-4f42-85e3-b5f09ae894cb">
+						<Properties>
+							<Name>ПометкаУдаления</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
