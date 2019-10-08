@@ -37,6 +37,55 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<TabularSection uuid="a2863fc9-b960-4d15-8a4f-a85b0373f12a">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.СтруктураПредприятия.ДополнительныеРеквизиты" category="TabularSection">
+						<xr:TypeId>be8deaf7-a3c8-47ca-94d9-58acb20a2e83</xr:TypeId>
+						<xr:ValueId>dbddebf5-75c7-4b39-8ca1-2003b6b9bc8d</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.СтруктураПредприятия.ДополнительныеРеквизиты" category="TabularSectionRow">
+						<xr:TypeId>cf7634f6-a9e8-4900-8734-075d4432e173</xr:TypeId>
+						<xr:ValueId>0a9f4b3f-77ae-4a55-a8c5-787b5dc882bd</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ДополнительныеРеквизиты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="283a7dd0-6d39-4510-b66b-a584c487b797">
+						<Properties>
+							<Name>Свойство</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="eb08460c-7ef8-4f29-b027-707c75c517e8">
+						<Properties>
+							<Name>Значение</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.ДополнительныеРеквизитыИСведения</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="326a5a5c-12f7-4f43-ba17-7e9a67e1ec6a">
+						<Properties>
+							<Name>ТекстоваяСтрока</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

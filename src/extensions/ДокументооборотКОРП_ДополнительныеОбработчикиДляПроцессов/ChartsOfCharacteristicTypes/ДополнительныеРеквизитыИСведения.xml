@@ -50,6 +50,37 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="43426e48-96a3-4079-bdfd-ce9eb225afba">
+				<Properties>
+					<Name>Заголовок</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>75</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fb7b715d-d564-4629-8d2a-f225d0f8c5f4">
+				<Properties>
+					<Name>ЗаполнятьОбязательно</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4507b22d-18ec-4da5-8a45-d2a2bbea1bfd">
+				<Properties>
+					<Name>ЭтоДополнительноеСведение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 		</ChildObjects>
 	</ChartOfCharacteristicTypes>
 </MetaDataObject>

@@ -46,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>2.9.0</Version>
+			<Version>2.10.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -64,10 +64,15 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>ДокументыИФайлы</Subsystem>
+			<Subsystem>НСИ</Subsystem>
+			<Subsystem>СовместнаяРабота</Subsystem>
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
 			<Subsystem>СтандартныеПодсистемыДокументооборота</Subsystem>
 			<Subsystem>УправлениеБизнесПроцессами</Subsystem>
-			<Subsystem>СовместнаяРабота</Subsystem>
+			<Role>АдминистраторСистемы</Role>
+			<Role>Администрирование</Role>
+			<Role>БазовыеПрава</Role>
+			<Role>ДобавлениеИзменениеПодразделений</Role>
 			<CommonModule>БизнесПроцессыИЗадачиСервер</CommonModule>
 			<CommonModule>ВстроеннаяПочтаКлиентСервер</CommonModule>
 			<CommonModule>ВстроеннаяПочтаСервер</CommonModule>
@@ -108,7 +113,9 @@
 			<Catalog>ВнутренниеДокументы</Catalog>
 			<Catalog>ВходящиеДокументы</Catalog>
 			<Catalog>ЗначенияСвойствОбъектов</Catalog>
+			<Catalog>ЗначенияСвойствОбъектовИерархия</Catalog>
 			<Catalog>ИсходящиеДокументы</Catalog>
+			<Catalog>НаборыДополнительныхРеквизитовИСведений</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>ПапкиПисем</Catalog>
 			<Catalog>ПолныеРоли</Catalog>
