@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.7">
+	<ConfigVersions>
+		<Metadata name="CommonModule.АвтозаполнениеШаблоновФайловКлиентСервер" id="022fd2e9-1a26-4347-a23f-fdeafc0eb87b" configVersion="b57a04b3a156ca74169b6609d9c8d13ff42c4196"/>
+		<Metadata name="CommonModule.АвтозаполнениеШаблоновФайловКлиентСервер.Module" id="022fd2e9-1a26-4347-a23f-fdeafc0eb87b.0" configVersion="8266917afa1f8558e783609b85adad3c9d142282"/>
+		<Metadata name="Configuration.ДокументооборотКОРП_ИсправлениеАвтозаполненияOpenOffice" id="f2b4be3c-02ae-475b-beb4-ff27c6f8681f" configVersion="9bfc2ccd3391e269e18bb1c9e2aa94ddadc9127a"/>
+		<Metadata name="Language.Русский" id="fc33ebc4-6bdc-4c3a-8926-890375865d84" configVersion="1b93f3f04b8020902ef0b5e92a93c57cc3482b54"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
