@@ -2,6 +2,12 @@
 
 ## Unreleased changes
 
+## 2.12.1
+
+Добавлена документация:
+
+- добавлен файл [`CODEOWNERS`](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners)
+
 ## 2.12.0
 
 Исправлены ошибки:
