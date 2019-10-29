@@ -49,6 +49,15 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="03056dac-abb5-49a0-a4e2-f1d38542a556">
+				<Properties>
+					<Name>Зарегистрировал</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Attribute uuid="d97c7f72-04ae-4d88-86ac-f4aa19b3550b">
 				<Properties>
 					<Name>Организация</Name>
