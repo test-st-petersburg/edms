@@ -28,6 +28,15 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="5c08cc3f-da70-4f3a-bbf6-9f00f3b26696">
+				<Properties>
+					<Name>Зарегистрировал</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Attribute uuid="714c7d23-6523-40db-baaf-4824a0ac024a">
 				<Properties>
 					<Name>Организация</Name>

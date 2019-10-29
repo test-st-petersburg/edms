@@ -12,8 +12,9 @@
 		<Metadata name="Catalog.ВидыВнутреннихДокументов" id="78ff3a8c-0319-4e31-8fda-883a4b717dcf" configVersion="0ebdca46dfe63e7768d0cbffab2e1ad335ced501">
 			<Metadata name="Catalog.ВидыВнутреннихДокументов.Attribute.ВестиУчетПоОрганизациям" id="1f678aa6-f7e9-486b-8408-edeb2755edbd"/>
 		</Metadata>
-		<Metadata name="Catalog.ВнутренниеДокументы" id="34286f74-48d6-49d1-990b-95650756365c" configVersion="dc0095704488731fd80827694dfc8898c375938b">
+		<Metadata name="Catalog.ВнутренниеДокументы" id="34286f74-48d6-49d1-990b-95650756365c" configVersion="bbc15efb99e2edc2bc4e0c58a7a3b556e741e82c">
 			<Metadata name="Catalog.ВнутренниеДокументы.Attribute.Подписал" id="008297c4-c7ec-4d27-9658-9224891c5d6b"/>
+			<Metadata name="Catalog.ВнутренниеДокументы.Attribute.Зарегистрировал" id="03056dac-abb5-49a0-a4e2-f1d38542a556"/>
 			<Metadata name="Catalog.ВнутренниеДокументы.Attribute.ДатаРегистрации" id="07608de5-cd0c-4b91-aadc-8a9ab72f9aad"/>
 			<Metadata name="Catalog.ВнутренниеДокументы.TabularSection.Стороны.Attribute.Подписан" id="1c9371c9-c922-47e1-acc4-6244d7ca8fee"/>
 			<Metadata name="Catalog.ВнутренниеДокументы.Attribute.Подразделение" id="266dd4c9-4f65-45a7-8805-1396ab3158d2"/>
@@ -26,9 +27,10 @@
 			<Metadata name="Catalog.ВнутренниеДокументы.TabularSection.Стороны.Attribute.ДатаПодписи" id="ec32dc30-e5c0-4840-859c-8bdc0b5af292"/>
 			<Metadata name="Catalog.ВнутренниеДокументы.TabularSection.ГрифыУтверждения" id="ef8d6652-93ed-4751-ad2f-55216d722741"/>
 		</Metadata>
-		<Metadata name="Catalog.ВходящиеДокументы" id="1007a701-2922-44bd-8f90-122f50f614a7" configVersion="69404d0cb7ad6d921314aebc1ab481b9c238896e">
+		<Metadata name="Catalog.ВходящиеДокументы" id="1007a701-2922-44bd-8f90-122f50f614a7" configVersion="082dc322e3feac26115248612840563b0fbad6fe">
 			<Metadata name="Catalog.ВходящиеДокументы.Attribute.ИсходящийНомер" id="334a383f-3f15-4cc0-8404-37b1c7e9e496"/>
 			<Metadata name="Catalog.ВходящиеДокументы.Attribute.ИсходящаяДата" id="4b373643-e7c3-4b4d-87f3-0ecdbf3a69fd"/>
+			<Metadata name="Catalog.ВходящиеДокументы.Attribute.Зарегистрировал" id="54048d78-bd86-4e41-8692-14a18d892ded"/>
 			<Metadata name="Catalog.ВходящиеДокументы.Attribute.Организация" id="6c35ce1c-a80c-46ca-87a6-0240151bf998"/>
 			<Metadata name="Catalog.ВходящиеДокументы.Attribute.Подразделение" id="9f3850b2-6129-4ff9-9075-83ef71b8652c"/>
 			<Metadata name="Catalog.ВходящиеДокументы.Attribute.ДатаРегистрации" id="a38b1c7c-7919-4b74-8097-208ffbe9092d"/>
@@ -43,7 +45,8 @@
 			<Metadata name="Catalog.ЗначенияСвойствОбъектовИерархия.Attribute.ПолноеНаименование" id="0aa51f95-e17e-4e16-8db8-6796b42234e1"/>
 		</Metadata>
 		<Metadata name="Catalog.ЗначенияСвойствОбъектовИерархия.ManagerModule" id="f94fcd56-9bd2-4748-b188-8a75ae3e8cd1.3" configVersion="a96d1845c0c4c8c6b8cb86b4820b7d811b58c361"/>
-		<Metadata name="Catalog.ИсходящиеДокументы" id="a477b3ba-c330-420a-96ea-d59fdb06dc24" configVersion="c392f0aef86dae8e823679dd91b9c47da9539bc8">
+		<Metadata name="Catalog.ИсходящиеДокументы" id="a477b3ba-c330-420a-96ea-d59fdb06dc24" configVersion="a5effada8f312fac73679234567b9709ae85b71d">
+			<Metadata name="Catalog.ИсходящиеДокументы.Attribute.Зарегистрировал" id="5c08cc3f-da70-4f3a-bbf6-9f00f3b26696"/>
 			<Metadata name="Catalog.ИсходящиеДокументы.Attribute.Подразделение" id="622db9fe-6777-4917-af05-d61889fbb61c"/>
 			<Metadata name="Catalog.ИсходящиеДокументы.Attribute.Организация" id="714c7d23-6523-40db-baaf-4824a0ac024a"/>
 			<Metadata name="Catalog.ИсходящиеДокументы.Attribute.Подписал" id="f70ad8f3-d678-431f-a6c6-f675c77c1e5f"/>
@@ -116,13 +119,13 @@
 		<Metadata name="CommonModule.ИТГ_РаботаСПодписямиДокументов" id="79f2e6ad-7a34-4f5d-8084-0f2d1a08349c" configVersion="4597504d7ae6bea7f75f47d7d04d6db902ff76b3"/>
 		<Metadata name="CommonModule.ИТГ_РаботаСПодписямиДокументов.Module" id="79f2e6ad-7a34-4f5d-8084-0f2d1a08349c.0" configVersion="d631313b1935a35d61cffb6a37da6dd6e2eb4904"/>
 		<Metadata name="CommonModule.ИТГ_РаботаСУсловиямиМаршрутизации" id="6736fbc8-e549-4682-9bb6-1fdeed6c1135" configVersion="836ef07dea44fb29978538659f94de5127e14344"/>
-		<Metadata name="CommonModule.ИТГ_РаботаСУсловиямиМаршрутизации.Module" id="6736fbc8-e549-4682-9bb6-1fdeed6c1135.0" configVersion="abdfad8db18eb969bc54b022dd7ce55a3abf4073"/>
+		<Metadata name="CommonModule.ИТГ_РаботаСУсловиямиМаршрутизации.Module" id="6736fbc8-e549-4682-9bb6-1fdeed6c1135.0" configVersion="077f02fc6dd51cb9e9911fe45976b7420827d70c"/>
 		<Metadata name="CommonModule.ИТГ_СтроковыеФункцииКлиентСервер" id="8b673ba6-38df-4b12-a016-165dd5f54e6f" configVersion="6993859f59d78d17e07d1353c1167ad5e7d572a3"/>
 		<Metadata name="CommonModule.ИТГ_СтроковыеФункцииКлиентСервер.Module" id="8b673ba6-38df-4b12-a016-165dd5f54e6f.0" configVersion="9e464599f356537592eb255182abc5678165787f"/>
 		<Metadata name="CommonModule.ИТГ_УправлениеСвойствами" id="1bbb3b75-e289-4372-83fa-748a4abda090" configVersion="5b6fc74f37d9cc19417edf39105681079c0ddaa2"/>
 		<Metadata name="CommonModule.ИТГ_УправлениеСвойствами.Module" id="1bbb3b75-e289-4372-83fa-748a4abda090.0" configVersion="217db6cd6def99f0893731071fa2bc668fe25844"/>
 		<Metadata name="CommonModule.ИТГ_ШаблоныБизнесПроцессов" id="c8ca82e3-9ecf-45ec-9eda-b8f93a27634c" configVersion="7e5ef7320e6585cd35843ff8b8c5def3512971e4"/>
-		<Metadata name="CommonModule.ИТГ_ШаблоныБизнесПроцессов.Module" id="c8ca82e3-9ecf-45ec-9eda-b8f93a27634c.0" configVersion="1b4d9c500035fe9f859e6e408e06e809e3673740"/>
+		<Metadata name="CommonModule.ИТГ_ШаблоныБизнесПроцессов.Module" id="c8ca82e3-9ecf-45ec-9eda-b8f93a27634c.0" configVersion="086e72235141485d15358eed67b39630977f3849"/>
 		<Metadata name="CommonModule.Мультипредметность" id="60d9a0f4-33b3-46b2-bcc8-0288b2a48c4f" configVersion="7f6992f2a10f6704c42ad3d32de6168a91d6c0ce"/>
 		<Metadata name="CommonModule.Мультипредметность.Module" id="60d9a0f4-33b3-46b2-bcc8-0288b2a48c4f.0" configVersion="654d13203aa2627fc86a34136c8191fbbc3fcfe0"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="41a563c4-dd87-41b9-af71-d42885e21743" configVersion="0ea76127e61290f7bfe4b6551b04f45ff5ea14c4"/>
@@ -132,7 +135,7 @@
 		<Metadata name="CommonModule.СвязиДокументов" id="e855032a-2fe2-4ad3-875d-029bca8fc4e8" configVersion="516ab711fb71b9eefcd0c13e9c302e9924c597d4"/>
 		<Metadata name="CommonModule.ШаблоныБизнесПроцессовПереопределяемый" id="a529304f-d0ca-4c1b-b01c-aa2cfe2d41a4" configVersion="6b9f73087669bb7f33b2948ad6b751be06d7c113"/>
 		<Metadata name="CommonModule.ШаблоныБизнесПроцессовПереопределяемый.Module" id="a529304f-d0ca-4c1b-b01c-aa2cfe2d41a4.0" configVersion="744463b8592bd4ce2b3ee0f46349481b489d26d6"/>
-		<Metadata name="Configuration.ДокументооборотКОРП_ДополнительныеОбработчикиДляПроцессов" id="101d1998-6b57-4af7-9e1e-315eaf14b95c" configVersion="2770af7bb980a587d4b6be020098871f13a5dc75"/>
+		<Metadata name="Configuration.ДокументооборотКОРП_ДополнительныеОбработчикиДляПроцессов" id="101d1998-6b57-4af7-9e1e-315eaf14b95c" configVersion="9b4ddf79fdb609ef765781c0e41c5a5220917a88"/>
 		<Metadata name="Constant.ИспользоватьВидыВнутреннихДокументов" id="0dfc0918-82f1-436b-8b41-4ae834d01931" configVersion="14874471f44742ebc23b1fa95e9487894a26801a"/>
 		<Metadata name="Constant.ИспользоватьСостоянияДокументов" id="548107e2-1239-4e71-bd8d-952f47dbd44b" configVersion="7d40d364f994f2e6a9673d28ec4eb456a983f6d1"/>
 		<Metadata name="Constant.ИспользоватьУчетПоОрганизациям" id="1a3a55a0-6771-4a1c-85ba-a69b42ec91b6" configVersion="aef3f845f05e313883c9631054e0ad6e8c1d3a10"/>

@@ -40,6 +40,15 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="54048d78-bd86-4e41-8692-14a18d892ded">
+				<Properties>
+					<Name>Зарегистрировал</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Attribute uuid="4b373643-e7c3-4b4d-87f3-0ecdbf3a69fd">
 				<Properties>
 					<Name>ИсходящаяДата</Name>
