@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<BusinessProcess uuid="b2adcc91-0c8f-4ee4-8f69-e5253bdb1c97">
+		<InternalInfo>
+			<xr:GeneratedType name="BusinessProcessObject.ОбработкаИсходящегоДокумента" category="Object">
+				<xr:TypeId>0781f307-6f55-4bba-8f91-d2b25aa379d5</xr:TypeId>
+				<xr:ValueId>d3a8f88c-96f5-494b-9b73-dba8f05479b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessRef.ОбработкаИсходящегоДокумента" category="Ref">
+				<xr:TypeId>8fcbb9a5-f9f7-40a2-9705-f3f8938cb869</xr:TypeId>
+				<xr:ValueId>464b0519-5afc-4ea7-a77d-7c63f7bcb9c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessSelection.ОбработкаИсходящегоДокумента" category="Selection">
+				<xr:TypeId>2bf0af90-cbbf-4290-952c-533a95593a4f</xr:TypeId>
+				<xr:ValueId>ba69516e-de2b-47d2-8e32-bfd85bc5a6e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessList.ОбработкаИсходящегоДокумента" category="List">
+				<xr:TypeId>072e7116-fc5b-4ea7-b47c-3274130909a8</xr:TypeId>
+				<xr:ValueId>0b3aca7d-08f4-48d0-bffa-64d0a68c186f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessManager.ОбработкаИсходящегоДокумента" category="Manager">
+				<xr:TypeId>a9cddd3b-e8f3-4004-ac8b-d2385f7eabe7</xr:TypeId>
+				<xr:ValueId>26280ad9-b133-42a2-a1c8-5a22bfdac948</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessRoutePointRef.ОбработкаИсходящегоДокумента" category="RoutePointRef">
+				<xr:TypeId>6ca7488e-b17e-4e9a-ba0c-b4e5e82118e3</xr:TypeId>
+				<xr:ValueId>51808961-69a5-42f1-a36d-67cd5bfe44b6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОбработкаИсходящегоДокумента</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="5143431e-f9a5-4b2a-8696-c15ae657d3de">
+				<Properties>
+					<Name>Состояние</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияБизнесПроцессов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="066e53f3-38df-4a38-bddb-dcd346133926">
+				<InternalInfo>
+					<xr:GeneratedType name="BusinessProcessTabularSection.ОбработкаИсходящегоДокумента.Предметы" category="TabularSection">
+						<xr:TypeId>19695583-a481-4390-8eff-5979600aab98</xr:TypeId>
+						<xr:ValueId>463c0c70-feec-4744-b4df-c726496c4729</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="BusinessProcessTabularSectionRow.ОбработкаИсходящегоДокумента.Предметы" category="TabularSectionRow">
+						<xr:TypeId>cf534026-07a2-4fa8-88ae-9e74343b2fc8</xr:TypeId>
+						<xr:ValueId>a73fae2f-b7d3-4770-868e-bfe0569f1365</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Предметы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="65d37c9f-78d4-475d-8008-165150153343">
+						<Properties>
+							<Name>РольПредмета</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:EnumRef.РолиПредметов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e4ea89e5-ace5-4f88-bb23-eb6371dfdb12">
+						<Properties>
+							<Name>Предмет</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</BusinessProcess>
+</MetaDataObject>
