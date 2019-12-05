@@ -46,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>2.15.0</Version>
+			<Version>2.16.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -144,6 +144,16 @@
 			<BusinessProcess>Исполнение</BusinessProcess>
 			<BusinessProcess>Ознакомление</BusinessProcess>
 			<BusinessProcess>Рассмотрение</BusinessProcess>
+			<BusinessProcess>КомплексныйПроцесс</BusinessProcess>
+			<BusinessProcess>ОбработкаВнутреннегоДокумента</BusinessProcess>
+			<BusinessProcess>ОбработкаВходящегоДокумента</BusinessProcess>
+			<BusinessProcess>ОбработкаИсходящегоДокумента</BusinessProcess>
+			<BusinessProcess>Поручение</BusinessProcess>
+			<BusinessProcess>Приглашение</BusinessProcess>
+			<BusinessProcess>Регистрация</BusinessProcess>
+			<BusinessProcess>РешениеВопросовВыполненияЗадач</BusinessProcess>
+			<BusinessProcess>Согласование</BusinessProcess>
+			<BusinessProcess>Утверждение</BusinessProcess>
 			<Task>ЗадачаИсполнителя</Task>
 		</ChildObjects>
 	</Configuration>

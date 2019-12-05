@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<BusinessProcess uuid="6ab8d038-453a-4047-bca8-776ee72ee455">
+		<InternalInfo>
+			<xr:GeneratedType name="BusinessProcessObject.Согласование" category="Object">
+				<xr:TypeId>18cedbfe-ed28-4d61-8a05-a8b44abe0d58</xr:TypeId>
+				<xr:ValueId>9397be34-ebeb-47c6-9639-243c43cfa5e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessRef.Согласование" category="Ref">
+				<xr:TypeId>3ba4a543-7448-4345-bb1c-b73b33b952bf</xr:TypeId>
+				<xr:ValueId>e9b4daf5-832d-4c37-82cd-d30fa58657a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessSelection.Согласование" category="Selection">
+				<xr:TypeId>1e4446ff-8070-4a1c-9f05-10f0875c11b4</xr:TypeId>
+				<xr:ValueId>398567e1-e08f-493a-a61a-18864568b872</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessList.Согласование" category="List">
+				<xr:TypeId>9895357c-b00e-44a4-8455-15a9cb2b6d14</xr:TypeId>
+				<xr:ValueId>ca19b89e-a134-4cf6-93aa-fc70d2cd5457</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessManager.Согласование" category="Manager">
+				<xr:TypeId>a2310310-b874-4e62-b8bc-54a393f4b9ea</xr:TypeId>
+				<xr:ValueId>ded95604-2e7f-4cd3-835e-32aa3d446b49</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessRoutePointRef.Согласование" category="RoutePointRef">
+				<xr:TypeId>bc90229c-0054-4c66-801e-29959c7ed594</xr:TypeId>
+				<xr:ValueId>55b08ee2-1043-4c29-ace4-a699b6b85a0f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Согласование</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="cbeb418a-5bd6-491a-b43d-8f0d7032ba19">
+				<Properties>
+					<Name>Состояние</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияБизнесПроцессов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="7f6d03e7-1be4-49f1-b6be-cebee3884b3b">
+				<InternalInfo>
+					<xr:GeneratedType name="BusinessProcessTabularSection.Согласование.Предметы" category="TabularSection">
+						<xr:TypeId>de53876e-e2f0-459c-90fe-16ff5f442185</xr:TypeId>
+						<xr:ValueId>58d9482d-8e4d-4ae1-9060-aa2cb324d294</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="BusinessProcessTabularSectionRow.Согласование.Предметы" category="TabularSectionRow">
+						<xr:TypeId>c4afeeec-25ed-42ff-9c68-d917d8bde040</xr:TypeId>
+						<xr:ValueId>71f2044d-fffc-4d4d-ba19-4bbaf7382fdb</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Предметы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="a30161e0-67b9-4f8c-a64d-ead9fc850466">
+						<Properties>
+							<Name>РольПредмета</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:EnumRef.РолиПредметов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3e663cef-5f02-42aa-a394-ae3a93dc7368">
+						<Properties>
+							<Name>Предмет</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</BusinessProcess>
+</MetaDataObject>
