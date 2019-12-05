@@ -31,6 +31,52 @@
 			<Name>Ознакомление</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="3c007429-7cbc-4369-827b-f174165b0c26">
+				<Properties>
+					<Name>Состояние</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияБизнесПроцессов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="c858e941-bcc1-4614-864e-951179161489">
+				<InternalInfo>
+					<xr:GeneratedType name="BusinessProcessTabularSection.Ознакомление.Предметы" category="TabularSection">
+						<xr:TypeId>8e03afed-33c8-4104-846f-408469c8ceab</xr:TypeId>
+						<xr:ValueId>3bb40e54-d249-483d-af2d-5930f2b67ed3</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="BusinessProcessTabularSectionRow.Ознакомление.Предметы" category="TabularSectionRow">
+						<xr:TypeId>48112e97-5057-44a7-b32a-d1437e0df5d8</xr:TypeId>
+						<xr:ValueId>b0d6cf5c-4add-4d5c-b8c2-38e8aa97abe3</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Предметы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="0c0633ab-5e17-45c9-b30d-f7ebf76dc658">
+						<Properties>
+							<Name>РольПредмета</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:EnumRef.РолиПредметов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b97ae8dc-9408-4d66-bdb3-568f81907a57">
+						<Properties>
+							<Name>Предмет</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
 	</BusinessProcess>
 </MetaDataObject>

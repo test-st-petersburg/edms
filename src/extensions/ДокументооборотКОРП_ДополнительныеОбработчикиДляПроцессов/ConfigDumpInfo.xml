@@ -1,9 +1,84 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.7">
 	<ConfigVersions>
-		<Metadata name="BusinessProcess.Исполнение" id="ebf64df5-4f04-4584-b764-f7534afe87d1" configVersion="46b9a9cfad34dd0536a4fddeaf064128b3fff14b"/>
-		<Metadata name="BusinessProcess.Ознакомление" id="669b44f8-2a61-4a55-9ca1-4f1bafa334b7" configVersion="25267ce761d65556c4a1da7cb1540f16edcd4507"/>
-		<Metadata name="BusinessProcess.Рассмотрение" id="291ec574-99c0-4571-a55d-9659ba35d868" configVersion="cd0205248eaf5db3e31c534b2c8d7ce37ce6f60b"/>
+		<Metadata name="BusinessProcess.Исполнение" id="ebf64df5-4f04-4584-b764-f7534afe87d1" configVersion="2b7ad87823cc546a516fdfaff0aeda2a97f1b2ae">
+			<Metadata name="BusinessProcess.Исполнение.TabularSection.Предметы" id="491fb420-a41a-40d2-82a3-5176f9bb5c02"/>
+			<Metadata name="BusinessProcess.Исполнение.TabularSection.Предметы.Attribute.РольПредмета" id="4a294258-223d-4317-a19c-f6585f44e6fa"/>
+			<Metadata name="BusinessProcess.Исполнение.TabularSection.Предметы.Attribute.Предмет" id="874c1ccd-c721-42c2-ac78-f6f28034f6c6"/>
+			<Metadata name="BusinessProcess.Исполнение.Attribute.Состояние" id="dc899fda-b3a5-446f-8800-ffbf2c551093"/>
+		</Metadata>
+		<Metadata name="BusinessProcess.КомплексныйПроцесс" id="6a26d020-2e71-4618-a75e-da0074024ebd" configVersion="20db8452a2808ac938c1f7221e417b753c4ce20c">
+			<Metadata name="BusinessProcess.КомплексныйПроцесс.Attribute.Состояние" id="1a11827b-19d5-4fa6-a2f8-473b783a9a69"/>
+			<Metadata name="BusinessProcess.КомплексныйПроцесс.TabularSection.Предметы" id="2957fa37-e3e6-4d6a-a1bf-09ce2e0650a8"/>
+			<Metadata name="BusinessProcess.КомплексныйПроцесс.TabularSection.Предметы.Attribute.РольПредмета" id="630e8a03-234b-4bc6-a5b1-54cc39354494"/>
+			<Metadata name="BusinessProcess.КомплексныйПроцесс.TabularSection.Предметы.Attribute.Предмет" id="d1d81a47-becc-4a0d-8fd7-38fce5a8427f"/>
+		</Metadata>
+		<Metadata name="BusinessProcess.ОбработкаВнутреннегоДокумента" id="c3aacc0f-ec8c-4656-80d6-a481f44ab316" configVersion="473bb987cd3be8d88f449eafc62031997f4b2b06">
+			<Metadata name="BusinessProcess.ОбработкаВнутреннегоДокумента.Attribute.Состояние" id="2e5e7893-ad75-4b17-bf27-ea6a3430d3e6"/>
+			<Metadata name="BusinessProcess.ОбработкаВнутреннегоДокумента.TabularSection.Предметы" id="a4aa16f1-cd45-4641-a1c6-2c169ece56e6"/>
+			<Metadata name="BusinessProcess.ОбработкаВнутреннегоДокумента.TabularSection.Предметы.Attribute.Предмет" id="aa559aa9-ad4d-4c06-b615-f177551eb181"/>
+			<Metadata name="BusinessProcess.ОбработкаВнутреннегоДокумента.TabularSection.Предметы.Attribute.РольПредмета" id="dd37a358-2994-4915-8d90-42606011d68d"/>
+		</Metadata>
+		<Metadata name="BusinessProcess.ОбработкаВходящегоДокумента" id="90155535-292c-45fb-8e07-18b76b238d78" configVersion="ae30b4e9553e491fd4105b9b8bc8a1e55c2b5837">
+			<Metadata name="BusinessProcess.ОбработкаВходящегоДокумента.Attribute.Состояние" id="0c3b8759-9f5d-4672-bab5-c9fbf2214472"/>
+			<Metadata name="BusinessProcess.ОбработкаВходящегоДокумента.TabularSection.Предметы.Attribute.Предмет" id="718188b9-0d7c-4200-988b-2e8eac4ce2c5"/>
+			<Metadata name="BusinessProcess.ОбработкаВходящегоДокумента.TabularSection.Предметы" id="76525f39-4f29-40e2-a070-61d3525e9b95"/>
+			<Metadata name="BusinessProcess.ОбработкаВходящегоДокумента.TabularSection.Предметы.Attribute.РольПредмета" id="f7bd1b74-a08b-4f92-912f-b3b389fe34b9"/>
+		</Metadata>
+		<Metadata name="BusinessProcess.ОбработкаИсходящегоДокумента" id="b2adcc91-0c8f-4ee4-8f69-e5253bdb1c97" configVersion="becec42e5d63ac82d987cc86747029e2b4d16814">
+			<Metadata name="BusinessProcess.ОбработкаИсходящегоДокумента.TabularSection.Предметы" id="066e53f3-38df-4a38-bddb-dcd346133926"/>
+			<Metadata name="BusinessProcess.ОбработкаИсходящегоДокумента.Attribute.Состояние" id="5143431e-f9a5-4b2a-8696-c15ae657d3de"/>
+			<Metadata name="BusinessProcess.ОбработкаИсходящегоДокумента.TabularSection.Предметы.Attribute.РольПредмета" id="65d37c9f-78d4-475d-8008-165150153343"/>
+			<Metadata name="BusinessProcess.ОбработкаИсходящегоДокумента.TabularSection.Предметы.Attribute.Предмет" id="e4ea89e5-ace5-4f88-bb23-eb6371dfdb12"/>
+		</Metadata>
+		<Metadata name="BusinessProcess.Ознакомление" id="669b44f8-2a61-4a55-9ca1-4f1bafa334b7" configVersion="7e4acb4574fc3f1ece4b7edfb227f41d4c8f40b2">
+			<Metadata name="BusinessProcess.Ознакомление.TabularSection.Предметы.Attribute.РольПредмета" id="0c0633ab-5e17-45c9-b30d-f7ebf76dc658"/>
+			<Metadata name="BusinessProcess.Ознакомление.Attribute.Состояние" id="3c007429-7cbc-4369-827b-f174165b0c26"/>
+			<Metadata name="BusinessProcess.Ознакомление.TabularSection.Предметы.Attribute.Предмет" id="b97ae8dc-9408-4d66-bdb3-568f81907a57"/>
+			<Metadata name="BusinessProcess.Ознакомление.TabularSection.Предметы" id="c858e941-bcc1-4614-864e-951179161489"/>
+		</Metadata>
+		<Metadata name="BusinessProcess.Поручение" id="451e803e-892b-4dd3-9af0-ee68d6cadb9e" configVersion="87daa63016d8a4c3ef76f717e8c5a29e8c18fe1b">
+			<Metadata name="BusinessProcess.Поручение.TabularSection.Предметы.Attribute.Предмет" id="a2f917b5-b4f6-4251-bfc4-47ba320203b2"/>
+			<Metadata name="BusinessProcess.Поручение.Attribute.Состояние" id="e2aee598-d3b7-431a-9bd3-d7dce642c2c2"/>
+			<Metadata name="BusinessProcess.Поручение.TabularSection.Предметы" id="f9b76f89-ea9a-4a70-85ed-feaad7801f08"/>
+			<Metadata name="BusinessProcess.Поручение.TabularSection.Предметы.Attribute.РольПредмета" id="fb743170-e640-4d33-9378-d5ba1233b620"/>
+		</Metadata>
+		<Metadata name="BusinessProcess.Приглашение" id="21ada465-2693-4e5f-93a6-74803a35aab2" configVersion="5cbc9146cd9687e0563693f9a29bf0dddea5cc36">
+			<Metadata name="BusinessProcess.Приглашение.TabularSection.Предметы" id="0a9ca7c1-7901-4f4e-ad81-c10961f81fe6"/>
+			<Metadata name="BusinessProcess.Приглашение.Attribute.Состояние" id="0b068b5a-04e2-42a5-9549-292c0c5bda4f"/>
+			<Metadata name="BusinessProcess.Приглашение.TabularSection.Предметы.Attribute.Предмет" id="b9659bf0-53d0-4f6b-af6b-307b282c7836"/>
+			<Metadata name="BusinessProcess.Приглашение.TabularSection.Предметы.Attribute.РольПредмета" id="ea425ed4-a93e-4be0-bbf1-08e218410926"/>
+		</Metadata>
+		<Metadata name="BusinessProcess.Рассмотрение" id="291ec574-99c0-4571-a55d-9659ba35d868" configVersion="74fd24889d0298b4a9f1fe6a117c5ec4cd378e53">
+			<Metadata name="BusinessProcess.Рассмотрение.Attribute.Состояние" id="00cf4cde-05b0-4c34-be23-9ec6bf42ec54"/>
+			<Metadata name="BusinessProcess.Рассмотрение.TabularSection.Предметы" id="0ac9d05c-c76c-4403-b5d2-2610da66d3d7"/>
+			<Metadata name="BusinessProcess.Рассмотрение.TabularSection.Предметы.Attribute.Предмет" id="b1efb57f-01a5-468e-b66c-d5173bb095a3"/>
+			<Metadata name="BusinessProcess.Рассмотрение.TabularSection.Предметы.Attribute.РольПредмета" id="eb2ac583-6137-4abc-8023-2e7d7674a6e1"/>
+		</Metadata>
+		<Metadata name="BusinessProcess.Регистрация" id="2693159f-6ca7-44eb-b3e2-1cd690da81fd" configVersion="b1eac3c351a0d39b783ffd4ed1371e5acacfb44e">
+			<Metadata name="BusinessProcess.Регистрация.TabularSection.Предметы" id="3cb361b5-5046-41fb-9d92-2a4e1815fe99"/>
+			<Metadata name="BusinessProcess.Регистрация.TabularSection.Предметы.Attribute.РольПредмета" id="3f466e39-44ee-4eb7-91de-e275d7e877d5"/>
+			<Metadata name="BusinessProcess.Регистрация.TabularSection.Предметы.Attribute.Предмет" id="ecfbfd53-7a45-41c2-a2db-9467616588cf"/>
+			<Metadata name="BusinessProcess.Регистрация.Attribute.Состояние" id="f44fbcfe-7e10-4782-a405-6093cdde9a94"/>
+		</Metadata>
+		<Metadata name="BusinessProcess.РешениеВопросовВыполненияЗадач" id="903b3bfc-bf39-4b38-bd8e-64e928e50466" configVersion="dde054ff04a0d0961d69b733a0865031529c8aa0">
+			<Metadata name="BusinessProcess.РешениеВопросовВыполненияЗадач.TabularSection.Предметы" id="6136af1c-6215-41bf-9d3f-67eaeb9487cd"/>
+			<Metadata name="BusinessProcess.РешениеВопросовВыполненияЗадач.Attribute.Состояние" id="84aef89f-813a-4e60-8e1b-807a61c5eab9"/>
+			<Metadata name="BusinessProcess.РешениеВопросовВыполненияЗадач.TabularSection.Предметы.Attribute.Предмет" id="a257136c-cab1-486b-aa7d-add57d565898"/>
+			<Metadata name="BusinessProcess.РешениеВопросовВыполненияЗадач.TabularSection.Предметы.Attribute.РольПредмета" id="c5593c53-8246-4c2d-9fc7-aea393b3f66b"/>
+		</Metadata>
+		<Metadata name="BusinessProcess.Согласование" id="6ab8d038-453a-4047-bca8-776ee72ee455" configVersion="fbee7d33a8ecab23ddc189fbbb574b279e687a8c">
+			<Metadata name="BusinessProcess.Согласование.TabularSection.Предметы.Attribute.Предмет" id="3e663cef-5f02-42aa-a394-ae3a93dc7368"/>
+			<Metadata name="BusinessProcess.Согласование.TabularSection.Предметы" id="7f6d03e7-1be4-49f1-b6be-cebee3884b3b"/>
+			<Metadata name="BusinessProcess.Согласование.TabularSection.Предметы.Attribute.РольПредмета" id="a30161e0-67b9-4f8c-a64d-ead9fc850466"/>
+			<Metadata name="BusinessProcess.Согласование.Attribute.Состояние" id="cbeb418a-5bd6-491a-b43d-8f0d7032ba19"/>
+		</Metadata>
+		<Metadata name="BusinessProcess.Утверждение" id="52ef35cb-a9a5-4a1d-9e9c-308f9d978a01" configVersion="7550309f04ed08d63a20e2d33b3e5ebb8c5faab0">
+			<Metadata name="BusinessProcess.Утверждение.TabularSection.Предметы" id="26e0fc43-56f6-4c07-929c-033f7f070996"/>
+			<Metadata name="BusinessProcess.Утверждение.Attribute.Состояние" id="b93476be-2543-4d75-b34a-9220d479457d"/>
+			<Metadata name="BusinessProcess.Утверждение.TabularSection.Предметы.Attribute.Предмет" id="d5462fee-238b-42e5-ab6f-7a1f10d28590"/>
+			<Metadata name="BusinessProcess.Утверждение.TabularSection.Предметы.Attribute.РольПредмета" id="f5625e99-f1e5-4c76-8d53-594b442ea480"/>
+		</Metadata>
 		<Metadata name="Catalog.АдресатыПочтовыхСообщений" id="9f945c48-4cbe-4237-8c08-09c91806913c" configVersion="226586d6553b69df50f7b3469b2f4691d22dd3fa">
 			<Metadata name="Catalog.АдресатыПочтовыхСообщений.Attribute.Адрес" id="fedcf803-a740-4b47-828f-d1e696b39959"/>
 		</Metadata>
@@ -108,7 +183,7 @@
 		<Metadata name="CommonModule.Делопроизводство" id="01154d3b-ad44-4043-b0fd-26810929efca" configVersion="2d9ac754000046531ddf2e710432a394bce6f63f"/>
 		<Metadata name="CommonModule.ДелопроизводствоКлиентСервер" id="ceb95fae-94f6-4e3a-a267-ef08fd7543d1" configVersion="0e52abdabab04edfa3303d597cb155a7eec24a32"/>
 		<Metadata name="CommonModule.ИТГ_БизнесСобытия" id="98e67937-313e-4d09-a692-2d3584323d87" configVersion="70e8285cfc343b2e6d630ff3cf5fbf53afe7a3e3"/>
-		<Metadata name="CommonModule.ИТГ_БизнесСобытия.Module" id="98e67937-313e-4d09-a692-2d3584323d87.0" configVersion="8aa492bbe7c9978774ca7a59b4ff1572b2a0b898"/>
+		<Metadata name="CommonModule.ИТГ_БизнесСобытия.Module" id="98e67937-313e-4d09-a692-2d3584323d87.0" configVersion="cd17b5317fa54f436c56537c756d24f5740d2cd0"/>
 		<Metadata name="CommonModule.ИТГ_БизнесСобытияПереопределяемый" id="90310e2a-5692-467a-b64f-7123d2a65c07" configVersion="b9a5a6c156042dfb7eb7604afc37242e0b9927c5"/>
 		<Metadata name="CommonModule.ИТГ_БизнесСобытияПереопределяемый.Module" id="90310e2a-5692-467a-b64f-7123d2a65c07.0" configVersion="b827e3ad4d9d14b396362807542b857c70448b5b"/>
 		<Metadata name="CommonModule.ИТГ_ВстроеннаяПочтаСервер" id="65f9b275-4271-4ad2-b40b-1ab5dd3cd9fa" configVersion="f5244b3cf8b0d9a39a5a1c35aef8a3927c6aa1eb"/>
@@ -136,7 +211,7 @@
 		<Metadata name="CommonModule.СвязиДокументов" id="e855032a-2fe2-4ad3-875d-029bca8fc4e8" configVersion="516ab711fb71b9eefcd0c13e9c302e9924c597d4"/>
 		<Metadata name="CommonModule.ШаблоныБизнесПроцессовПереопределяемый" id="a529304f-d0ca-4c1b-b01c-aa2cfe2d41a4" configVersion="6b9f73087669bb7f33b2948ad6b751be06d7c113"/>
 		<Metadata name="CommonModule.ШаблоныБизнесПроцессовПереопределяемый.Module" id="a529304f-d0ca-4c1b-b01c-aa2cfe2d41a4.0" configVersion="744463b8592bd4ce2b3ee0f46349481b489d26d6"/>
-		<Metadata name="Configuration.ДокументооборотКОРП_ДополнительныеОбработчикиДляПроцессов" id="101d1998-6b57-4af7-9e1e-315eaf14b95c" configVersion="03804c2fb6f6ceb807fcbb2b7cb126af00429abf"/>
+		<Metadata name="Configuration.ДокументооборотКОРП_ДополнительныеОбработчикиДляПроцессов" id="101d1998-6b57-4af7-9e1e-315eaf14b95c" configVersion="4e2b5a59141c77d17dfc9325e6ca8485a16882ea"/>
 		<Metadata name="Constant.ИспользоватьВидыВнутреннихДокументов" id="0dfc0918-82f1-436b-8b41-4ae834d01931" configVersion="14874471f44742ebc23b1fa95e9487894a26801a"/>
 		<Metadata name="Constant.ИспользоватьСостоянияДокументов" id="548107e2-1239-4e71-bd8d-952f47dbd44b" configVersion="7d40d364f994f2e6a9673d28ec4eb456a983f6d1"/>
 		<Metadata name="Constant.ИспользоватьУчетПоОрганизациям" id="1a3a55a0-6771-4a1c-85ba-a69b42ec91b6" configVersion="aef3f845f05e313883c9631054e0ad6e8c1d3a10"/>
