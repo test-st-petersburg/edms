@@ -46,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>2.16.0</Version>
+			<Version>2.17.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -92,6 +92,7 @@
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ОбщегоНазначенияДокументооборот</CommonModule>
 			<CommonModule>ОбщегоНазначенияКлиентСервер</CommonModule>
+			<CommonModule>Почта</CommonModule>
 			<CommonModule>РаботаСПодписямиДокументов</CommonModule>
 			<CommonModule>СвязиДокументов</CommonModule>
 			<CommonModule>ШаблоныБизнесПроцессовПереопределяемый</CommonModule>
@@ -136,9 +137,10 @@
 			<Enum>СостоянияДокументов</Enum>
 			<Enum>ТипыОтвета</Enum>
 			<Enum>ТипыТекстовПочтовыхСообщений</Enum>
+			<InformationRegister>АвтоматическиеОтветыПоАдресам</InformationRegister>
 			<InformationRegister>ИсполнителиЗадач</InformationRegister>
-			<InformationRegister>ПроизошедшиеБизнесСобытия</InformationRegister>
 			<InformationRegister>ИспользованиеПочты</InformationRegister>
+			<InformationRegister>ПроизошедшиеБизнесСобытия</InformationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ОбъектыАдресацииЗадач</ChartOfCharacteristicTypes>
 			<BusinessProcess>Исполнение</BusinessProcess>

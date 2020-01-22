@@ -69,6 +69,74 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<TabularSection uuid="4fa62ba8-fc62-4729-a348-f285c41d1774">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИсходящееПисьмо.ПолучателиПисьма" category="TabularSection">
+						<xr:TypeId>30089906-26c6-4f19-b70f-62cd38b0cea1</xr:TypeId>
+						<xr:ValueId>4fff6983-5cf8-4b3b-adab-746045b97257</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИсходящееПисьмо.ПолучателиПисьма" category="TabularSectionRow">
+						<xr:TypeId>839e0783-2945-4b10-8d71-2a18606bc410</xr:TypeId>
+						<xr:ValueId>4e584123-6a47-4eba-a428-27548bab18e0</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ПолучателиПисьма</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="f9491ec8-5d2a-4993-835c-9d258bb1841a">
+						<Properties>
+							<Name>Адресат</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.АдресатыПочтовыхСообщений</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="b215cc56-98c4-4638-b3d4-1fe35d551a9b">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИсходящееПисьмо.ПолучателиОтвета" category="TabularSection">
+						<xr:TypeId>901eb043-2346-47ec-a864-7696ac4e5041</xr:TypeId>
+						<xr:ValueId>adcf296e-c25b-47b8-bf0a-32bb20cccc5d</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИсходящееПисьмо.ПолучателиОтвета" category="TabularSectionRow">
+						<xr:TypeId>b5acb14e-3adf-4899-808d-4ce7499f9c61</xr:TypeId>
+						<xr:ValueId>08f433f0-c950-4e74-9095-08d2f7e68cb7</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ПолучателиОтвета</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="4d4bd036-6e36-41f0-8777-697843a4b109">
+						<Properties>
+							<Name>Адресат</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.АдресатыПочтовыхСообщений</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4c01649e-04ea-4091-8a73-0bfe8095f942">
+						<Properties>
+							<Name>ПорядковыйНомер</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>
