@@ -11,9 +11,17 @@
     - в обработчике бизнес-события регистрации входящего документа,
       созданного на основании входящего письма,
       `ИТГ_БизнесСобытия.ОбработатьСобытиеСообщитьОтправителюОРегистрацииВходящегоДокумента`,
-      в автоматическом ответе добавлен заголовок [`Reply-To`](https://tools.ietf.org/html/rfc4021#section-2.1.4),
-      в котором указан исходный адрес входящего письма (заголовок [`To`](https://tools.ietf.org/html/rfc4021#section-2.1.5)).
-      На тот случай, если в контрагент напишет письмо в ответ на автоответ.
+      в автоматическом ответе добавлены заголовки:
+
+      - [`Auto-Submitted`](https://tools.ietf.org/html/rfc4021#section-2.1.60):
+        `Auto-Submitted: auto-replied`
+        https://www.iana.org/assignments/auto-submitted-keywords/auto-submitted-keywords.xhtml
+        https://tools.ietf.org/html/rfc3834#section-5
+
+      - `X-1C-AutoReply: true`. Это важно, если и с другой стороны 1С:ДО.
+
+      - [`X-Auto-Response-Suppress`](https://docs.microsoft.com/en-us/openspecs/exchange_server_protocols/ms-oxcmail/ced68690-498a-4567-9d14-5c01f974d8b1?redirectedfrom=MSDN):
+        `X-Auto-Response-Suppress: DR, NDR, RN, NRN, OOF`
 
 ## 2.16.0
 
