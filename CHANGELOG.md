@@ -2,6 +2,20 @@
 
 ## Unreleased changes
 
+## 2.18.0
+
+Исправлены ошибки:
+
+- в расширении ДокументооборотКОРП_ДополнительныеОбработчикиДляПроцессов:
+
+  - в обработчике `ИТГ_БизнесСобытия.ОбработатьСобытиеСообщитьОтправителюОРегистрацииВходящегоДокумента`,
+    проверяем заголовок во входящем письме
+    [`X-Auto-Response-Suppress`](https://docs.microsoft.com/en-us/openspecs/exchange_server_protocols/ms-oxcmail/ced68690-498a-4567-9d14-5c01f974d8b1)
+    и при наличии `RN` или `AutoReply` не генерируем автоответ.
+
+  - ошибка при возврате списка автоподстановок из ошибки при использовании в `НСтр`
+    вызова `ОбщегоНазначенияКлиентСервер.КодОсновногоЯзыка()`
+
 ## 2.17.1
 
 Исправлены ошибки:
@@ -22,15 +36,12 @@
       созданного на основании входящего письма,
       `ИТГ_БизнесСобытия.ОбработатьСобытиеСообщитьОтправителюОРегистрацииВходящегоДокумента`,
       в автоматическом ответе добавлены заголовки:
-
       - [`Auto-Submitted`](https://tools.ietf.org/html/rfc4021#section-2.1.60):
         `Auto-Submitted: auto-replied`
         https://www.iana.org/assignments/auto-submitted-keywords/auto-submitted-keywords.xhtml
         https://tools.ietf.org/html/rfc3834#section-5
-
       - `X-1C-AutoReply: true`. Это важно, если и с другой стороны 1С:ДО.
-
-      - [`X-Auto-Response-Suppress`](https://docs.microsoft.com/en-us/openspecs/exchange_server_protocols/ms-oxcmail/ced68690-498a-4567-9d14-5c01f974d8b1?redirectedfrom=MSDN):
+      - [`X-Auto-Response-Suppress`](https://docs.microsoft.com/en-us/openspecs/exchange_server_protocols/ms-oxcmail/ced68690-498a-4567-9d14-5c01f974d8b1):
         `X-Auto-Response-Suppress: DR, NDR, RN, NRN, OOF`
 
 ## 2.16.0
