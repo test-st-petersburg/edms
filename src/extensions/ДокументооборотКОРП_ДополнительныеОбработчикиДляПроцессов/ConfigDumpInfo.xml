@@ -184,7 +184,7 @@
 		<Metadata name="CommonModule.Делопроизводство" id="01154d3b-ad44-4043-b0fd-26810929efca" configVersion="2d9ac754000046531ddf2e710432a394bce6f63f"/>
 		<Metadata name="CommonModule.ДелопроизводствоКлиентСервер" id="ceb95fae-94f6-4e3a-a267-ef08fd7543d1" configVersion="0e52abdabab04edfa3303d597cb155a7eec24a32"/>
 		<Metadata name="CommonModule.ИТГ_БизнесСобытия" id="98e67937-313e-4d09-a692-2d3584323d87" configVersion="70e8285cfc343b2e6d630ff3cf5fbf53afe7a3e3"/>
-		<Metadata name="CommonModule.ИТГ_БизнесСобытия.Module" id="98e67937-313e-4d09-a692-2d3584323d87.0" configVersion="50eb98d403616a9de8e1d10acc5b5d208cab58d6"/>
+		<Metadata name="CommonModule.ИТГ_БизнесСобытия.Module" id="98e67937-313e-4d09-a692-2d3584323d87.0" configVersion="afcee90d1b9178207018d3f0edfb94b01637ebb6"/>
 		<Metadata name="CommonModule.ИТГ_БизнесСобытияПереопределяемый" id="90310e2a-5692-467a-b64f-7123d2a65c07" configVersion="b9a5a6c156042dfb7eb7604afc37242e0b9927c5"/>
 		<Metadata name="CommonModule.ИТГ_БизнесСобытияПереопределяемый.Module" id="90310e2a-5692-467a-b64f-7123d2a65c07.0" configVersion="b827e3ad4d9d14b396362807542b857c70448b5b"/>
 		<Metadata name="CommonModule.ИТГ_ВстроеннаяПочтаСервер" id="65f9b275-4271-4ad2-b40b-1ab5dd3cd9fa" configVersion="f5244b3cf8b0d9a39a5a1c35aef8a3927c6aa1eb"/>
