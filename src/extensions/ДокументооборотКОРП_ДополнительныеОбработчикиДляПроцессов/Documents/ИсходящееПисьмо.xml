@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<Document uuid="0c3ff865-9860-4d9a-afeb-e76545683b2b">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.ИсходящееПисьмо" category="Object">
@@ -25,13 +25,16 @@
 		</InternalInfo>
 		<Properties>
 			<Name>ИсходящееПисьмо</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<RegisterRecords/>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="0b4d4fdd-ed8f-4e60-b2fb-d9b95a0ed71c">
+				<InternalInfo/>
 				<Properties>
 					<Name>Важность</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:EnumRef.ВажностьПисем</v8:Type>
@@ -39,8 +42,10 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="da34954f-3073-4657-810b-168e1e8837a8">
+				<InternalInfo/>
 				<Properties>
 					<Name>ИдентификаторСообщения</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -52,8 +57,10 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="8b600ea8-f30e-415f-be38-17f82d556029">
+				<InternalInfo/>
 				<Properties>
 					<Name>Папка</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ПапкиПисем</v8:Type>
@@ -61,8 +68,10 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="28d20ef2-85d3-44dd-a72b-95e95b965f0f">
+				<InternalInfo/>
 				<Properties>
 					<Name>ПисьмоОснование</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
@@ -82,12 +91,15 @@
 				</InternalInfo>
 				<Properties>
 					<Name>ПолучателиПисьма</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="f9491ec8-5d2a-4993-835c-9d258bb1841a">
+						<InternalInfo/>
 						<Properties>
 							<Name>Адресат</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:CatalogRef.АдресатыПочтовыхСообщений</v8:Type>
@@ -109,12 +121,15 @@
 				</InternalInfo>
 				<Properties>
 					<Name>ПолучателиОтвета</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="4d4bd036-6e36-41f0-8777-697843a4b109">
+						<InternalInfo/>
 						<Properties>
 							<Name>Адресат</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:CatalogRef.АдресатыПочтовыхСообщений</v8:Type>
@@ -122,8 +137,10 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="4c01649e-04ea-4091-8a73-0bfe8095f942">
+						<InternalInfo/>
 						<Properties>
 							<Name>ПорядковыйНомер</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>

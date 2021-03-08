@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<InformationRegister uuid="f83f2519-2f0b-42b6-9ba9-a5607eb11be5">
 		<InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.ПроизошедшиеБизнесСобытия" category="Record">
@@ -33,14 +33,17 @@
 		</InternalInfo>
 		<Properties>
 			<Name>ПроизошедшиеБизнесСобытия</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
 		</Properties>
 		<ChildObjects>
 			<Resource uuid="1f48f9fb-c78b-4094-a278-bb033765bc77">
+				<InternalInfo/>
 				<Properties>
 					<Name>Автор</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
@@ -48,8 +51,10 @@
 				</Properties>
 			</Resource>
 			<Resource uuid="4ada71e1-2766-4acb-9151-46726b4b29b0">
+				<InternalInfo/>
 				<Properties>
 					<Name>ВидСобытия</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ВидыБизнесСобытий</v8:Type>
@@ -57,8 +62,10 @@
 				</Properties>
 			</Resource>
 			<Resource uuid="f99aded2-7db2-434f-b2ee-eb988a35dc37">
+				<InternalInfo/>
 				<Properties>
 					<Name>Источник</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:TypeSet>cfg:DefinedType.ИсточникБизнесСобытий</v8:TypeSet>
@@ -66,8 +73,10 @@
 				</Properties>
 			</Resource>
 			<Dimension uuid="db7e3609-6356-40b6-8af7-c05327dce181">
+				<InternalInfo/>
 				<Properties>
 					<Name>Обработано</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -75,8 +84,10 @@
 				</Properties>
 			</Dimension>
 			<Dimension uuid="f5eceff6-b5bb-4a6f-a2c3-76ed77bac3ee">
+				<InternalInfo/>
 				<Properties>
 					<Name>Идентификатор</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>v8:UUID</v8:Type>
